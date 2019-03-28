@@ -1,2 +1,5 @@
-# Jim_the_kiwi
-Jim the kiwi game development repo
+# Jim the kiwi repo
+  __ _         __ _       __ _     __ _           _ __
+ /  ('>-      /  ('>-    /  ('>-  /  ('>-       -<')  \
+ \__/         \__/       \__/     \__/             \__/
+  L\_          L\_        L\_      L\_             _/I
