@@ -4,7 +4,7 @@ if keyboard_check_pressed(ord("Z"))
 	scr_adjustWindowScale(1);
 }
 
-if keyboard_check_pressed(ord("F"))
+if keyboard_check_pressed(ord("X"))
 {
 	scr_adjustFullScreen();
 }
