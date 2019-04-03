@@ -2,10 +2,15 @@
 
 global.upPressed = false;
 global.upHeld = false;
+global.upReleased = false;
+
 global.downPressed = false;
 global.downHeld = false;
+global.downReleased = false;
+
 global.confirmPressed = false;
 global.confirmHeld = false;
+global.confirmReleased = false;
 
 // input config
 upButton0 = ord("W");

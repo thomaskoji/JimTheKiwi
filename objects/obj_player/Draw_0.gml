@@ -1,6 +1,6 @@
 draw_self();
 
-draw_set_halign(fa_center);
+draw_set_halign(fa_left);
 draw_set_valign(fa_middle);
 
 var _stateName = "";
@@ -17,4 +17,9 @@ switch state
 	
 }
 
-draw_text(x,y + 25, _stateName);
+draw_text(x - 20,y + 15, _stateName);
+
+var _debugText = "";
+_debugText = "XVel: " + string(velocity[XAXIS]);
+_debugText = "YVel: " + string(velocity[YAXIS]);
+draw_text(x - 20,y + 30, _debugText);
