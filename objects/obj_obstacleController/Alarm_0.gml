@@ -1,7 +1,7 @@
 //randomizing the seed
 randomize();
 
-// declaring a local variable that is eather 1 or 2 randomly selected 
+// declaring a local int variable that is eather 1 or 2 randomly selected 
 var count = irandom_range(1, 2);
 
 
@@ -16,14 +16,18 @@ i.sprite_index = choose(spr_PH_cloud, spr_PH_kangaroo, spr_PH_tree);
 switch(i.sprite_index)
 {
 	//when the sprite was A, do B.
-	case spr_PH_cloud:
 	case spr_PH_kangaroo:
 	case spr_PH_tree:
 	i.image_speed = 0;
+	break;
+	
+	case spr_PH_cloud:
+	i.y -= random_range(global.cloudSpawnYmax, global.cloudSpawnYmin);
+	break;
 	
 	// if i want to make several spr of same thing, use this: 
 	// i.image_index = irandom_range(0, sprite_get_number(i.sprite_index) - 1);
 }
 
 // randomizing when the new obstacle spawnes
-alarm[0] = room_speed * random_range(1/global.speedmodifier, 3/global.speedmodifier);
+alarm[0] = room_speed * random_range(1/global.spawnFrequency, 3/global.spawnFrequency);
