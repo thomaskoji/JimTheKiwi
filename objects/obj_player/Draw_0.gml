@@ -17,9 +17,13 @@ switch state
 	
 }
 
-draw_text(x - 20,y + 15, _stateName);
-
-var _debugText = "";
-_debugText = "XVel: " + string(velocity[XAXIS]);
-_debugText = "YVel: " + string(velocity[YAXIS]);
-draw_text(x - 20,y + 30, _debugText);
+if ( global.debugMode )
+{
+	draw_set_color(c_black);
+	draw_set_font(debugFont);
+	draw_text(x - 20,y + 15, _stateName);
+	var _debugText = "";
+	_debugText = "Xsp:" + string(velocity[XAXIS]);
+	_debugText = "Ysp:" + string(velocity[YAXIS]);
+	draw_text(x - 20,y + 30, _debugText);
+}

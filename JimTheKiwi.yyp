@@ -381,6 +381,25 @@
             }
         },
         {
+            "Key": "605dbbb4-8706-4e04-98fe-0ec88ddec727",
+            "Value": {
+                "id": "7030cd05-8b0d-4741-98d4-81bee9838e64",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "fonts\/debugFont\/debugFont.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "67e75fd3-e447-48c3-b225-0731a0d3b9a5",
             "Value": {
                 "id": "e39afd8b-e4f6-4d3f-9e8f-cddbcea9a90a",
