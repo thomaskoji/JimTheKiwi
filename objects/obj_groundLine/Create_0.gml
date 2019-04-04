@@ -1,0 +1,1 @@
+var second_color = make_color_rgb(222, 206, 191);
