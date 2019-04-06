@@ -12,6 +12,10 @@ global.confirmPressed = false;
 global.confirmHeld = false;
 global.confirmReleased = false;
 
+global.debugMode = false;
+
+global.endButton = false;
+
 // input config
 upButton0 = ord("W");
 upButton1 = vk_up;

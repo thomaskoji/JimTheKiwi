@@ -9,3 +9,12 @@ global.downReleased = (keyboard_check_released(downButton0) or keyboard_check_re
 global.confirmPressed = keyboard_check_pressed(confirmButton);
 global.confirmHeld = keyboard_check(confirmButton);
 global.confirmReleased = keyboard_check_released(confirmButton);
+
+
+// press P for debug mode
+if(keyboard_check(ord("P"))) global.debugMode = true;
+else global.debugMode = false;
+
+
+// press Q to end game
+if(keyboard_check(ord("Q"))) game_end();

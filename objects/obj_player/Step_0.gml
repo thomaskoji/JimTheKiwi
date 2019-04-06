@@ -17,15 +17,20 @@ switch state
 	case playerStates.jump:
 		if (state_new)
 		{
-			velocity[YAXIS] = -2;
+			velocity[YAXIS] = -(jumpHeight);
 			state_new = false;
 			jumpApexHoldTimer = 4;
 		}
 	
 		if (global.upReleased == true and velocity[YAXIS] < 0)
 		{
-			velocity[YAXIS] = velocity[YAXIS] * .5;
+			velocity[YAXIS] = velocity[YAXIS] * jumpReleaseMod;
 			jumpApexHoldTimer = 0;
+		}
+		
+		if (global.downHeld == true and velocity[YAXIS] < 0)
+		{
+			velocity[YAXIS] = velocity[YAXIS] * extraFallSpeed;
 		}
 	
 		var _grav = .1;
