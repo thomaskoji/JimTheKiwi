@@ -1,3 +1,4 @@
+image_blend = global.playerColour;
 draw_self();
 
 draw_set_halign(fa_left);

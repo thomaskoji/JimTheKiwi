@@ -1,3 +1,1 @@
-draw_self();
-
-draw_line_width_color(0, 0, 190, 33, 1, second_color, second_color);
+draw_line_width_color(0, 75, 190, 75, 1, global.secondaryColour, global.secondaryColour);

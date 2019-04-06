@@ -1,3 +1,4 @@
+image_blend = global.secondaryColour;
 draw_self();
 
 if (sprite_index = spr_PH_cloud and global.debugMode)
