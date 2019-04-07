@@ -28,7 +28,7 @@ switch state
 			jumpApexHoldTimer = 0;
 		}
 		
-		if (global.downHeld == true and velocity[YAXIS] < 0)
+		if (global.downHeld == true and velocity[YAXIS] > 0)
 		{
 			velocity[YAXIS] = velocity[YAXIS] * extraFallSpeed;
 		}
