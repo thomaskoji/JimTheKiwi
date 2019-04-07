@@ -3,7 +3,7 @@ switch state
 {
 	case playerStates.wait:
 		// Animation
-		image_speed = .5;
+		image_speed = ANIMSPEED;
 		sprite_index = spr_kiwiWalk;
 		if (state_new)
 		{
@@ -15,12 +15,18 @@ switch state
 			state = playerStates.jump;
 			state_new = true;
 		}
-		break;
+		
+		if (global.downHeld)
+		{
+			state = playerStates.duck;
+			state_new = true;
+		}
+	break;
 
 	case playerStates.jump:
 		if (state_new)
 		{
-			velocity[YAXIS] = -(jumpHeight);
+			velocity[YAXIS] = -jumpHeight;
 			state_new = false;
 			jumpApexHoldTimer = 4;
 		}
@@ -51,7 +57,26 @@ switch state
 		//animation
 		image_index = 0;
 		sprite_index = spr_kiwiJump;
-		break;
+	break;
+		
+	case playerStates.duck:
+		if(global.downHeld)
+		{
+			state_new = false;
+			image_speed = ANIMSPEED;
+			sprite_index = spr_kiwiDuck;
+		}else
+		{
+			state = playerStates.wait;
+			state_new = true;
+		}
+		
+		if (global.upPressed)
+		{
+			state = playerStates.jump;
+			state_new = true;
+		}
+	break;
 }
 
 x += velocity[XAXIS];

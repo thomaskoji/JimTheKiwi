@@ -16,6 +16,9 @@ switch state
 		_stateName = "Jump";
 		break;
 	
+	case playerStates.duck:
+		_stateName = "duck";
+		break;
 }
 
 if ( global.debugMode )

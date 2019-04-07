@@ -1,3 +1,5 @@
+/// @description ground spawner
+
 //randomizing the seed
 randomize();
 
@@ -21,21 +23,9 @@ switch(obstacle.sprite_index)
 	obstacle.image_speed = 0;
 	break;
 	
-	/*
-	case spr_PH_cloud:
-	i.y -= random_range(global.cloudSpawnYmax, global.cloudSpawnYmin);
-	break;
-	*/
-	
 	// if i want to make several spr of same thing, use this: 
 	// i.image_index = irandom_range(0, sprite_get_number(i.sprite_index) - 1);
 }
-
-
-/*
-var cloudYRange = random_range(global.cloudSpawnYmax, global.cloudSpawnYmin);
-var obstacle = instance_create_layer(room_width + 16, cloudYRange,"obstacles", obj_obstacle);
-*/
 
 // randomizing when the new obstacle spawnes
 alarm[0] = room_speed * random_range(1/global.spawnFrequency, 3/global.spawnFrequency);

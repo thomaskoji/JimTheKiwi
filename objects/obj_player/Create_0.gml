@@ -4,7 +4,7 @@ state = playerStates.wait;
 state_new = true;
 
 jumpHeight = 2.2;
-jumpReleaseMod = 0.4;
+jumpReleaseMod = 0.6;
 extraFallSpeed = 1.2;
 
 velocity[YAXIS] = 0;

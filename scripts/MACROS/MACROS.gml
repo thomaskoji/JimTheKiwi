@@ -2,8 +2,10 @@ enum playerStates
 {
 	wait,
 	jump,
+	duck,
 	enum_size
 }
 
 #macro XAXIS 0
 #macro YAXIS 1
+#macro ANIMSPEED .5

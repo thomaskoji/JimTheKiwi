@@ -1,4 +1,5 @@
 // Initialize input holders
+event_inherited()
 
 global.upPressed = false;
 global.upHeld = false;

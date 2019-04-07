@@ -6,7 +6,11 @@ global.spawnFrequency = 1;
 global.baseY = 35 ;
 global.firstSpawnTimer = 1.5;
 
-global.cloudSpawnYmax = 30;
+global.cloudSpawnYmax = 40;
 global.cloudSpawnYmin = 10;
 
- alarm[0] = global.firstSpawnTimer;
+obstacles = 0;
+clouds = 1;
+
+ alarm[obstacles] = global.firstSpawnTimer;
+ alarm[clouds] = random_range(global.cloudSpawnYmax, global.cloudSpawnYmin);
