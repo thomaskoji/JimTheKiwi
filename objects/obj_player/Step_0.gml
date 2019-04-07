@@ -1,7 +1,10 @@
-
+//Movement
 switch state
 {
 	case playerStates.wait:
+		// Animation
+		image_speed = .5;
+		sprite_index = spr_kiwiWalk;
 		if (state_new)
 		{
 			state_new = false;
@@ -13,7 +16,7 @@ switch state
 			state_new = true;
 		}
 		break;
-	
+
 	case playerStates.jump:
 		if (state_new)
 		{
@@ -44,6 +47,10 @@ switch state
 			state = playerStates.wait;
 			state_new = true;
 		}
+		
+		//animation
+		image_index = 0;
+		sprite_index = spr_kiwiJump;
 		break;
 }
 

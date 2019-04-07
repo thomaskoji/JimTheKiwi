@@ -135,6 +135,14 @@
             }
         },
         {
+            "Key": "3f2a7e3a-9ed7-47ef-b2ab-435f5849e307",
+            "Value": {
+                "id": "bbb9b2e4-7552-4191-9dc4-2f456b465407",
+                "resourcePath": "views\\3f2a7e3a-9ed7-47ef-b2ab-435f5849e307.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "41c68bbf-f9fe-4dbd-bf72-a4bbdb2b8682",
             "Value": {
                 "id": "1279c4e8-27c5-4b2f-9872-5bdfcf5b4b16",
@@ -212,6 +220,22 @@
                 "id": "7030cd05-8b0d-4741-98d4-81bee9838e64",
                 "resourcePath": "fonts\/debugFont\/debugFont.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "63639743-a1a8-44c0-bcbb-7f9ad20c9982",
+            "Value": {
+                "id": "3775f8d1-1fd9-420d-a83a-9e7c6e4c933b",
+                "resourcePath": "sprites\\spr_kiwiJump\\spr_kiwiJump.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "63653b5e-f8d1-45b6-b037-086b0a74fa10",
+            "Value": {
+                "id": "97661eec-978f-413f-be68-869cd75bd1d6",
+                "resourcePath": "sprites\\spr_kiwiWalk\\spr_kiwiWalk.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
