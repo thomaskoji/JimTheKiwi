@@ -24,7 +24,7 @@ switch state
 if ( global.debugMode )
 {
 	draw_set_color(c_black);
-	draw_set_font(debugFont);
+	draw_set_font(fnt_debug);
 	draw_text(x - 20,y + 15, _stateName);
 	var _debugText = "";
 	_debugText = "Xsp:" + string(velocity[XAXIS]);

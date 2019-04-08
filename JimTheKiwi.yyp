@@ -31,14 +31,6 @@
     },
     "resources": [
         {
-            "Key": "056f0774-81d3-4da6-9262-1bd66c63e10e",
-            "Value": {
-                "id": "cae2e4d0-beaa-464d-a79b-84f287ae9c37",
-                "resourcePath": "fonts\/font1\/font1.yy",
-                "resourceType": "GMFont"
-            }
-        },
-        {
             "Key": "08ae1346-3784-443e-b916-730e626b34dd",
             "Value": {
                 "id": "d4d579cc-7967-4466-afa2-47a219126de4",
@@ -258,7 +250,7 @@
             "Key": "605dbbb4-8706-4e04-98fe-0ec88ddec727",
             "Value": {
                 "id": "7030cd05-8b0d-4741-98d4-81bee9838e64",
-                "resourcePath": "fonts\/debugFont\/debugFont.yy",
+                "resourcePath": "fonts\\fnt_debug\\fnt_debug.yy",
                 "resourceType": "GMFont"
             }
         },
