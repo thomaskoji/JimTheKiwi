@@ -8,6 +8,7 @@ var _stateName = "";
 
 switch state
 {
+	#region converting state to string
 	case playerStates.wait:
 		_stateName = "Wait";
 		break;
@@ -19,10 +20,12 @@ switch state
 	case playerStates.duck:
 		_stateName = "duck";
 		break;
+	#endregion
 }
 
 if ( global.debugMode )
 {
+	#region debug mode
 	draw_set_color(c_black);
 	draw_set_font(fnt_debug);
 	draw_text(x - 20,y + 15, _stateName);
@@ -30,4 +33,5 @@ if ( global.debugMode )
 	_debugText = "Xsp:" + string(velocity[XAXIS]);
 	_debugText = "Ysp:" + string(velocity[YAXIS]);
 	draw_text(x - 20,y + 30, _debugText);
+	#endregion
 }

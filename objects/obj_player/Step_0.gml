@@ -5,6 +5,7 @@ velocity[XAXIS] = 1;
 switch state
 {
 	case playerStates.wait:
+		#region wait
 		// Animation
 		image_speed = ANIMSPEED;
 		sprite_index = spr_kiwiWalk;
@@ -24,9 +25,11 @@ switch state
 			state = playerStates.duck;
 			state_new = true;
 		}
+		#endregion
 	break;
 
 	case playerStates.jump:
+		#region jump
 		if (state_new)
 		{
 			velocity[YAXIS] = -jumpHeight;
@@ -67,9 +70,11 @@ switch state
 		//animation
 		image_index = 0;
 		sprite_index = spr_kiwiJump;
+		#endregion
 	break;
 		
 	case playerStates.duck:
+		#region duck
 		if(global.downHeld)
 		{
 			state_new = false;
@@ -85,7 +90,8 @@ switch state
 		{
 			state = playerStates.jump;
 			state_new = true;
-		}
+		} 
+		#endregion
 	break;
 }
 

@@ -7,7 +7,8 @@
     "inheritCreationOrder": false,
     "inheritLayers": false,
     "instanceCreationOrderIDs": [
-        "354ee450-ac5e-46ad-90f0-09601f8f5a8a"
+        "354ee450-ac5e-46ad-90f0-09601f8f5a8a",
+        "71cde502-d47c-4b23-8449-6734ff5073db"
     ],
     "IsDnD": false,
     "layers": [
@@ -42,8 +43,8 @@
             "name": "obstacles",
             "id": "ac2f664d-3f30-47a7-b18a-bd9dd0d5576e",
             "depth": 100,
-            "grid_x": 32,
-            "grid_y": 32,
+            "grid_x": 16,
+            "grid_y": 16,
             "hierarchyFrozen": false,
             "hierarchyVisible": true,
             "inheritLayerDepth": false,
@@ -51,7 +52,7 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
-
+{"name": "inst_5A0175F0","id": "71cde502-d47c-4b23-8449-6734ff5073db","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_5A0175F0","objId": "57412ad0-fdca-440f-b9ff-1ae8fb38c5d7","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 270,"y": 73}
             ],
             "layers": [
 
