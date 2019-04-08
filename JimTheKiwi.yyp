@@ -274,7 +274,7 @@
             "Key": "6318354a-d3dd-46a0-b283-516c08d61909",
             "Value": {
                 "id": "c9ac53df-ffe5-443e-85dd-b1896f671290",
-                "resourcePath": "objects\\obj_guiController\\obj_guiController.yy",
+                "resourcePath": "objects\\obj_hudController\\obj_hudController.yy",
                 "resourceType": "GMObject"
             }
         },
