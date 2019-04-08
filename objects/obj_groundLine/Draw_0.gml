@@ -1,1 +1,1 @@
-draw_line_width_color(0, 75, 190, 75, 1, global.secondaryColour, global.secondaryColour);
+draw_line_width_color(0, 75, 1000, 75, 1, global.secondaryColour,c_blue);

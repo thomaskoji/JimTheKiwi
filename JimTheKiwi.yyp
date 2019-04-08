@@ -207,6 +207,22 @@
             }
         },
         {
+            "Key": "543ba614-f9c8-466c-a2a5-222e85ee6371",
+            "Value": {
+                "id": "0f0736e1-96a2-470d-a931-c56fca3c285f",
+                "resourcePath": "objects\\obj_camera\\obj_camera.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "57412ad0-fdca-440f-b9ff-1ae8fb38c5d7",
+            "Value": {
+                "id": "e3d4adda-944d-44ec-8cae-6cf1b8614c3e",
+                "resourcePath": "objects\\obj_kangaroo\\obj_kangaroo.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "59db5d6f-4fdd-4c22-9f32-55a74fab1b92",
             "Value": {
                 "id": "b8ff064e-b13c-453e-8146-bd284c2bc6a1",
@@ -303,6 +319,14 @@
             }
         },
         {
+            "Key": "7e1866d8-bdd8-4c6f-8e05-77ac21cfce2b",
+            "Value": {
+                "id": "3ce5034a-5782-40aa-8a87-b4c500037cf8",
+                "resourcePath": "objects\\obj_cloud\\obj_cloud.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "7e1878bd-0d33-486e-898d-3bf7b02e69c1",
             "Value": {
                 "id": "2547f386-ae7e-4ed0-898d-0ef7fe0f5d0e",
@@ -356,6 +380,14 @@
                 "id": "759c8ade-9456-41ac-8528-5fc82e740582",
                 "resourcePath": "views\/943e3d69-ef75-4073-90d9-1e62cdb0e5e2.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "948aef8b-743e-4173-b7c5-4284a8ec2e91",
+            "Value": {
+                "id": "1ab81c12-63b5-40ee-9d82-c77bac62aa66",
+                "resourcePath": "objects\\obj_tree\\obj_tree.yy",
+                "resourceType": "GMObject"
             }
         },
         {
