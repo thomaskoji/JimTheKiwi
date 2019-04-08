@@ -210,7 +210,7 @@
             "Key": "543ba614-f9c8-466c-a2a5-222e85ee6371",
             "Value": {
                 "id": "0f0736e1-96a2-470d-a931-c56fca3c285f",
-                "resourcePath": "objects\\obj_camera\\obj_camera.yy",
+                "resourcePath": "objects\\obj_cameraController\\obj_cameraController.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -260,6 +260,14 @@
                 "id": "7030cd05-8b0d-4741-98d4-81bee9838e64",
                 "resourcePath": "fonts\/debugFont\/debugFont.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "60eed8ab-59c6-42f5-9036-8ed00d0b3265",
+            "Value": {
+                "id": "1f42c83b-9186-45ea-bbb5-d4ee62b0763d",
+                "resourcePath": "sprites\\spr_camera\\spr_camera.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

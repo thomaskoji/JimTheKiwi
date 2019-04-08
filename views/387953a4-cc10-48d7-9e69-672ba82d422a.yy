@@ -10,7 +10,8 @@
         "20ff7ede-44a6-4b39-b579-834b665583db",
         "27edbed1-6807-429b-a682-85fc6d639f8c",
         "3d4aa1cd-5b93-4f3a-98cf-5b902e6ccd26",
-        "aa896212-f77d-4986-bb4f-fb3ba80927d1"
+        "aa896212-f77d-4986-bb4f-fb3ba80927d1",
+        "60eed8ab-59c6-42f5-9036-8ed00d0b3265"
     ],
     "filterType": "GMSprite",
     "folderName": "Controllers",

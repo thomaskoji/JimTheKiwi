@@ -8,4 +8,5 @@ instance_create_depth(0,0,0, obj_displayController);
 //instance_create_depth(0,0,0, obj_obstacleController);
 instance_create_depth(0,0,0, obj_colourController);
 instance_create_depth(0,0,0, obj_guiController);
+instance_create_depth(0,0,0, obj_camera);
 room_goto(rm_gameRoom);
