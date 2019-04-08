@@ -33,6 +33,12 @@ switch state
 			state_new = false;
 			jumpApexHoldTimer = 4;
 		}
+		
+		if (global.upPressed and !doubleJumped)
+		{
+			velocity[YAXIS] = -jumpHeight;
+			doubleJumped = true;
+		}
 	
 		if (global.upReleased == true and velocity[YAXIS] < 0)
 		{
@@ -55,6 +61,7 @@ switch state
 			velocity[YAXIS] = 0;
 			state = playerStates.wait;
 			state_new = true;
+			doubleJumped = false;
 		}
 		
 		//animation

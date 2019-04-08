@@ -2,6 +2,7 @@ startY = y;
 
 state = playerStates.wait;
 state_new = true;
+doubleJumped = false;
 
 jumpHeight = 2.2;
 jumpReleaseMod = 0.6;
