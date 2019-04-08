@@ -1,12 +1,10 @@
-draw_set_color(c_black);
-draw_set_font(fnt_debug);
-draw_text(15, 15, "Press Q to exit.");
-draw_text(15, 25, "Hold P for debug mode.");
-
-
+draw_self();
 
 
 // score HUD
+draw_set_color(c_black);
+draw_set_font(fnt_debug);
+
 if (global.currentScore < 9.9)
 {
 	#region score HUD
