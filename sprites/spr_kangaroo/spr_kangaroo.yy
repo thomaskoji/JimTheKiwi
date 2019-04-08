@@ -2,7 +2,7 @@
     "id": "3607bef1-8686-4466-bfba-dff22ffff545",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "spr_PH_kangaroo",
+    "name": "spr_kangaroo",
     "For3D": false,
     "HTile": false,
     "VTile": false,

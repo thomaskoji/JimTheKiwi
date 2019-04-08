@@ -6,9 +6,10 @@ draw_set_valign(fa_middle);
 
 var _stateName = "";
 
+// converting state to string for debug mode
 switch state
 {
-	#region converting state to string
+	#region state
 	case playerStates.wait:
 		_stateName = "Wait";
 		break;
@@ -26,12 +27,11 @@ switch state
 if ( global.debugMode )
 {
 	#region debug mode
-	draw_set_color(c_black);
+	draw_set_color(global.debugColour);
 	draw_set_font(fnt_debug);
-	draw_text(x - 20,y + 15, _stateName);
+	draw_text(x - 10 ,y + 15, _stateName);
 	var _debugText = "";
-	_debugText = "Xsp:" + string(velocity[XAXIS]);
 	_debugText = "Ysp:" + string(velocity[YAXIS]);
-	draw_text(x - 20,y + 30, _debugText);
+	draw_text(x - 10,y + 25, _debugText);
 	#endregion
 }

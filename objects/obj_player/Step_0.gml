@@ -7,7 +7,7 @@ switch state
 	case playerStates.wait:
 		#region wait
 		// Animation
-		image_speed = ANIMSPEED;
+		image_speed = ANIMSPEEDHALF;
 		sprite_index = spr_kiwiWalk;
 		if (state_new)
 		{
@@ -78,7 +78,7 @@ switch state
 		if(global.downHeld)
 		{
 			state_new = false;
-			image_speed = ANIMSPEED;
+			image_speed = ANIMSPEEDHALF;
 			sprite_index = spr_kiwiDuck;
 		}else
 		{
