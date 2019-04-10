@@ -1,6 +1,5 @@
 draw_self();
 
-draw_text(5,20, string(fps));
 
 // score HUD
 draw_set_color(c_black);

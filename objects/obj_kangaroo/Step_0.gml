@@ -1,6 +1,6 @@
 // setting animation speed
-image_speed = 0;
-sprite_index = spr_kangarooAttack;
+image_speed = ANIMSPEEDHALF;
+
 switch state
 {
 	case obstacleStates.wait:
@@ -13,6 +13,7 @@ switch state
 		}
 		
 		// sprite
+		sprite_index = spr_kangaroo;  // THIS SPRITE IS PLACE HOLDER
 		#endregion
 		break;
 		
@@ -20,7 +21,8 @@ switch state
 		#region attack
 		
 		//sprite
-		image_speed = 1;
+		sprite_index = spr_kangarooAttack // THIS SPRITE IS PLACE HOLDER
+		image_speed = ANIMSPEEDDBL;
 		//stopping sprite at last frame
 		if(image_index = image_number - 1)
 		{
