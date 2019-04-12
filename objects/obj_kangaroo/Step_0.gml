@@ -12,7 +12,8 @@ switch state
 			state = obstacleStates.attack;
 		}
 		
-		// sprite
+
+// sprite
 		sprite_index = spr_kangaroo;  // THIS SPRITE IS PLACE HOLDER
 		#endregion
 		break;
