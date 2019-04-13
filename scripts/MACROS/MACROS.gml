@@ -16,5 +16,4 @@ enum obstacleStates
 #macro XAXIS 0
 #macro YAXIS 1
 
-#macro ANIMSPEEDHALF .5
-#macro ANIMSPEEDDBL 2
+#macro DEFAULTANIMSPD .1

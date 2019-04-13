@@ -2,7 +2,7 @@
     "id": "e5a97d71-4862-47d3-8aac-ce399ed83a0b",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "sprite16",
+    "name": "spr_hudController",
     "For3D": false,
     "HTile": false,
     "VTile": false,

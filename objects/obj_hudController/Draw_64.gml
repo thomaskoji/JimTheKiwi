@@ -1,5 +1,3 @@
-draw_self();
-
 
 // score HUD
 draw_set_color(c_black);

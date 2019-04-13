@@ -11,15 +11,15 @@ var count = irandom_range(1, 2);
 var obstacle = instance_create_layer(room_width + 16, room_height - global.baseY,"obstacles", obj_obstacle);
 
 // randomly choosing what sprite the spawned object will have
-obstacle.sprite_index = choose(spr_PH_kangaroo, spr_PH_tree);
+obstacle.sprite_index = choose(spr_kangaroo, spr_tree);
 
 // switch statement used to tell what each sprite will do
 // im not sure about how the first expression is working here
 switch(obstacle.sprite_index)
 {
 	//when the sprite was A, do B.
-	case spr_PH_kangaroo:
-	case spr_PH_tree:
+	case spr_kangaroo:
+	case spr_tree:
 	obstacle.image_speed = 0;
 	break;
 	

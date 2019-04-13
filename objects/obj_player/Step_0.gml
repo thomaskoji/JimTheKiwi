@@ -1,13 +1,10 @@
-//Movement
-
-velocity[XAXIS] = 1;
 
 switch state
 {
 	case playerStates.wait:
 		#region wait
 		// Animation
-		image_speed = ANIMSPEEDHALF;
+		image_speed = DEFAULTANIMSPD;
 		sprite_index = spr_kiwiWalk;
 		if (state_new)
 		{
@@ -67,8 +64,6 @@ switch state
 			doubleJumped = false;
 		}
 		
-		//animation
-		image_index = 0;
 		sprite_index = spr_kiwiJump;
 		#endregion
 	break;
@@ -78,7 +73,7 @@ switch state
 		if(global.downHeld)
 		{
 			state_new = false;
-			image_speed = ANIMSPEEDHALF;
+			image_speed = DEFAULTANIMSPD;
 			sprite_index = spr_kiwiDuck;
 		}else
 		{
@@ -97,6 +92,3 @@ switch state
 
 x += velocity[XAXIS];
 y += velocity[YAXIS];
-
-var _vy = camera_get_view_height(view_camera[0]) / 2;
-camera_set_view_pos(view_camera[0], x - 150, 0)

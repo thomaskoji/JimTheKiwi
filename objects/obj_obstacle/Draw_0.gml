@@ -1,7 +1,7 @@
 image_blend = global.secondaryColour;
 draw_self();
 
-if (sprite_index = spr_PH_cloud and global.debugMode)
+if (sprite_index = spr_cloud and global.debugMode)
 {
 	draw_set_color(c_black);
 	draw_set_font(fnt_debug);
