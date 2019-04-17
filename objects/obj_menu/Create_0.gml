@@ -60,3 +60,5 @@ ds_audio = create_menu_page(
 	["MUSIC",		menu_element_type.slider,			change_volume,			1,			[0, 1]],
 	["BACK",		menu_element_type.page_transfer,	menu_page.settings],
 );
+
+
