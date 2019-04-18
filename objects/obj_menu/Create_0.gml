@@ -42,23 +42,30 @@ ds_settings = create_menu_page(
 	["BACK",		menu_element_type.page_transfer,	menu_page.main],
 );
 
-ds_controls = create_menu_page(
+ds_menu_controls = create_menu_page(
 	["JUMP",		menu_element_type.input,			"key_up",				vk_up],
 	["DUCK",		menu_element_type.input,			"key_down",				vk_down],
 	["BACK",		menu_element_type.page_transfer,	menu_page.settings],
 );
 
-ds_video = create_menu_page(
+ds_menu_video = create_menu_page(
 	["RESOLUTION",	menu_element_type.shift,			change_resolution,		0,			[1,2,3,4,5]],
 	["FULLSCREEN",	menu_element_type.toggle,			change_window_mode,		1,			["FULLSCREEN", "WINDOWED"]],
 	["BACK",		menu_element_type.page_transfer,	menu_page.settings],
 );
 
-ds_audio = create_menu_page(
+ds_menu_audio = create_menu_page(
 	["MASTER",		menu_element_type.slider,			change_volume,			1,			[0, 1]],
 	["SOUND FX",	menu_element_type.slider,			change_volume,			1,			[0, 1]],
 	["MUSIC",		menu_element_type.slider,			change_volume,			1,			[0, 1]],
 	["BACK",		menu_element_type.page_transfer,	menu_page.settings],
 );
 
+page = 0;
+menu_pages = [ds_menu_main, ds_settings, ds_menu_controls, ds_menu_video, ds_menu_audio]
 
+var i = 0, _array_len = array_length_1d(menu_pages);
+repeat(_array_len){
+	menu_option[i] = 0;
+	++i;
+}

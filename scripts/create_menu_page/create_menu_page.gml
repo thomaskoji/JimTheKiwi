@@ -5,7 +5,7 @@
 
 // how many elements  are in the menu is argument count
 
-var _arg,i = 0;
+var _arg, i = 0;
 repeat(argument_count){
 	 _arg[i] = argument_count[i];
 	 ++i;
