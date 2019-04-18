@@ -64,8 +64,11 @@ ds_menu_audio = create_menu_page(
 page = 0;
 menu_pages = [ds_menu_main, ds_settings, ds_menu_controls, ds_menu_video, ds_menu_audio]
 
-var i = 0, _array_len = array_length_1d(menu_pages);
-repeat(_array_len){
+var i = 0, array_len = array_length_1d(menu_pages);
+repeat(array_len){
 	menu_option[i] = 0;
-	++i;
+	i++;
 }
+
+
+inputting = false;
