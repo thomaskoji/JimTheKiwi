@@ -1,12 +1,13 @@
 
-global.pause		= true;
+global.pause		= false;
 global.view_width	= camera_get_view_width(view_camera[0]);
 global.view_height	= camera_get_view_height(view_camera[0]);
 
 global.key_revert	= vk_escape;
 global.key_conform	= vk_enter;
+global.key_enter	= vk_enter;
 global.key_up		= ord("W");
-global.key_down		 = ord("S");
+global.key_down		= ord("S");
 
 display_set_gui_size(global.view_width, global.view_height);
 
