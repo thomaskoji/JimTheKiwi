@@ -3,8 +3,10 @@ if(!global.pause) exit;
 var gwidth = global.view_width, gheight = global.view_height;
 
 //Draw Pause Menu "Back"
-var c = c_black;
+var c = global.secondaryColour;
+draw_set_alpha(0.5);
 draw_rectangle_color(0,0,gwidth, gheight, c,c,c,c, false);
+draw_set_alpha(1);
 
 //Draw elements on Left Side
 draw_set_valign(fa_middle);
@@ -26,9 +28,6 @@ var yy = 0; repeat(ds_height){
 	draw_text_color(ltx + xo, lty, ds_[# 0, yy], c,c,c,c, 1);
 	yy++;
 }
-
-//Draw Dividing Line
-draw_line(start_x, start_y - y_buffer, start_x, lty + y_buffer);
 
 //Draw Options on Right Side
 draw_set_halign(fa_left);

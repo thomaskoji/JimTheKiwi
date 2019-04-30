@@ -8,6 +8,10 @@ global.key_conform	= vk_enter;
 global.key_enter	= vk_enter;
 global.key_up		= ord("W");
 global.key_down		= ord("S");
+global.key_right	= ord("A");
+global.key_left		= ord("D");
+
+allObjects[0,0]		= noone;
 
 display_set_gui_size(global.view_width, global.view_height);
 

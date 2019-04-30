@@ -13,17 +13,17 @@ if(!surface_exists(shadowSurface)){
 var viewX = camera_get_view_x(view_camera[0]);
 var viewY = camera_get_view_y(view_camera[0]);
 
-// changing the canvas that it's gonna be drawn
+//	changing the canvas that it's gonna be drawn
 surface_set_target(shadowSurface);
 
-// this draws 0 opacity black pixels all over the screen and serves as clearing the whole canvas 
+//	this draws 0 opacity black pixels all over the screen and serves as clearing the whole canvas 
 draw_clear_alpha(c_black,0);
 
-// These are the shadows top 2 cordinate's location
+//	These are the shadows top 2 cordinate's location
 var sx = global.skewX;
 var sy = global.shadowHeight;
 
-// making the shadows compleatly black
+//	making the shadows compleatly black
 gpu_set_fog(true, global.secondaryColour, 0, 1);
 
 with(obj_parent){
@@ -34,16 +34,16 @@ with(obj_parent){
 		bbox_left-viewX, bbox_bottom-viewY, 1);
 }
 
-// resetting the gpu_set_fog
+//	resetting the gpu_set_fog
 gpu_set_fog(false, c_white, 0, 0);
 
-// setting back the canvas to be drawn to the application surface
+//	setting back the canvas to be drawn to the application surface
 surface_reset_target();
 
-// setting all the drawn shadows to become 0.5 opacity
+//	setting all the drawn shadows to become 0.5 opacity
 draw_set_alpha(0.5);
 
-// drawing the shadow surface
+//	rawing the shadow surface
 draw_surface(shadowSurface, viewX, viewY);
 
 // resetting the opacity
