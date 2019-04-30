@@ -18,3 +18,5 @@ else global.debugMode = false;
 
 // press Q to end game
 if(keyboard_check(ord("Q"))) game_end();
+
+if(keyboard_check(ord("R"))) global.gameRestart = true;

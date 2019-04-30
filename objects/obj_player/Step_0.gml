@@ -1,6 +1,12 @@
 event_inherited();
 sprite_index = currentSprite;
 
+if(global.gameOver == true) 
+{
+	state = playerStates.game_over;
+	state_new = true;
+}
+
 switch state
 {
 	#region wait
@@ -138,7 +144,21 @@ switch state
 			} 
 		break;
 	#endregion
+	
+	#region gameOver
+		case playerStates.game_over:
+			state_new = false;
+			currentSprite = spr_kiwiJump;
+			image_speed = 0;
+			if(global.gameRestart == true)
+			{
+				state = playerStates.wait;
+				state_new = true;
+			}
+		break;
+	#endregion
 }
-
+	
+	
 x += velocity[XAXIS];
 y += velocity[YAXIS];
