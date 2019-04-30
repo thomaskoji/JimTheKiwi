@@ -1,4 +1,4 @@
-
+event_inherited();
 sprite_index = currentSprite;
 
 switch state

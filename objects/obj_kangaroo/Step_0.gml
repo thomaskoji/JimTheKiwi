@@ -1,3 +1,4 @@
+event_inherited();
 // setting animation speed
 image_speed = ANIMSPEEDHALF;
 
