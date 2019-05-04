@@ -42,6 +42,13 @@ if(global.gameOver == false)
 	}
 }
 
+//debug texts
+if(global.debugMode)
+{
+	draw_text(50,10,"GO " + string(global.gameOver));
+	draw_text(75,10,"GR " +string(global.gameRestart));
+}
+
 // gameover screen
 if(global.gameOver == true)
 {
@@ -56,6 +63,4 @@ if(global.gameOver == true)
 	draw_set_color(c_black);
 	draw_text(room_width/2, room_height/2 - 3, string(global.currentScore));
 	draw_text(room_width/2, room_height/2 + 11, "R  TO PLAY AGAIN");
-
-
 }

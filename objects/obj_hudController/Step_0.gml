@@ -1,4 +1,6 @@
 
-if(global.gameOver = false)	secondsPast += scoreSpeed/room_speed;
+if(!global.gameOver)	secondsPast += scoreSpeed/room_speed;
 
 global.currentScore = round(secondsPast);
+
+if(global.gameRestart) global.currentScore = 0;
