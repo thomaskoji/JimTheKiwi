@@ -10,5 +10,6 @@ instance_create_depth(0,0,0, obj_hudController);
 instance_create_depth(0,0,0, obj_cameraController);
 room_goto(rm_gameRoom);
 
-global.gameOver		= false;
-global.gameRestart	= false;
+global.gameOver				= false;
+global.gameRestart			= false;
+global.gameHasNotStarted	= true;

@@ -4,3 +4,6 @@ scoreSpeed = 20;
 
 scoreX = 150;
 scoreY = 9;
+
+startTextVisible = false;
+timer = 40;

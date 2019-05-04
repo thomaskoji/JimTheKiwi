@@ -9,3 +9,8 @@ if (sprite_index = spr_cloud and global.debugMode)
 	_debugText = "Y = " + string(y);
 	draw_text(x + 10, y, _debugText);
 }
+
+if(sprite_index != spr_cloud and global.gameHasNotStarted)
+{
+	instance_destroy();
+}

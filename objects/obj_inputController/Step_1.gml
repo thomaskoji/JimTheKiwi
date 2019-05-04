@@ -20,3 +20,5 @@ else global.debugMode = false;
 if(keyboard_check(ord("Q"))) game_end();
 
 if(keyboard_check(ord("R"))) global.gameRestart = true;
+
+if(keyboard_check(confirmButton)) global.gameHasNotStarted = false;
