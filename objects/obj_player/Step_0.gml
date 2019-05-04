@@ -148,7 +148,9 @@ switch state
 	#region gameOver
 		case playerStates.game_over:
 			state_new = false;
-			currentSprite = spr_kiwiJump;
+			Xscale = 1;
+			Yscale = 1;
+			currentSprite = spr_kiwiDead;
 			image_speed = 0;
 			if(global.gameRestart == true)
 			{
@@ -159,6 +161,8 @@ switch state
 	#endregion
 }
 	
-	
-x += velocity[XAXIS];
-y += velocity[YAXIS];
+if (global.gameOver = false)
+{
+	x += velocity[XAXIS];
+	y += velocity[YAXIS];
+}

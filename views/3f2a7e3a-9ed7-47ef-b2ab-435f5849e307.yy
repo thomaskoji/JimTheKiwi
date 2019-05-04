@@ -6,7 +6,8 @@
     "children": [
         "63653b5e-f8d1-45b6-b037-086b0a74fa10",
         "63639743-a1a8-44c0-bcbb-7f9ad20c9982",
-        "333ecbe7-0661-420c-a090-60c63e1532ed"
+        "333ecbe7-0661-420c-a090-60c63e1532ed",
+        "68603a2f-4ff7-48a0-a13f-ab7b52b0811f"
     ],
     "filterType": "GMSprite",
     "folderName": "Animations",
