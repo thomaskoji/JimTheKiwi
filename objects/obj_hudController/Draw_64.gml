@@ -10,13 +10,13 @@
 		(room_width/2, 22, "JIM THE KIWI", 6, 100, 2, 2, 0, _c, _c, _c, _c, 1);
 	}
 
-	if(timer > 20 and global.gameHasNotStarted)
+	if(timer > DefaultTimer/2 and global.gameHasNotStarted)
 	{
 		draw_text(room_width/2, room_height/2, "press any button");
 	}
 	else
 	{
-		if(timer = 0) timer += 40;
+		if(timer = 0) timer += DefaultTimer;
 	}
 	timer --;
 #endregion
