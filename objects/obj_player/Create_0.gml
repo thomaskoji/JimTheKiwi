@@ -8,7 +8,7 @@ previousState = playerStates.wait;
 doubleJumped = false;
 
 grav = .2;
-jumpHeight = 3;
+jumpHeight = 3.5;
 jumpReleaseMod = 0.7;
 extraFallSpeed = 1.2; // when down is held
 

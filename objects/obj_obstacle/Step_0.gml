@@ -5,7 +5,7 @@ if ( x < -100 or global.gameRestart )
 	instance_destroy();
 	global.gameRestart = false;
 	global.gameOver = false;
-	global.runSpeed = 1;
+	global.runSpeed = 1.5;
 }
 
 x -= global.runSpeed;
