@@ -1,8 +1,18 @@
 
 #region START SCREEN
+
+	var _c = global.secondaryColour;
+	if(global.gameHasNotStarted)
+	{
+		draw_set_halign(fa_center);
+		draw_set_valign(fa_center);
+		draw_text_ext_transformed_color
+		(room_width/2, 22, "JIM THE KIWI", 6, 100, 2, 2, 0, _c, _c, _c, _c, 1);
+	}
+
 	if(timer > 20 and global.gameHasNotStarted)
 	{
-		draw_text(50,50,"press any button");
+		draw_text(room_width/2, room_height/2, "press any button");
 	}
 	else
 	{
