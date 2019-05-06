@@ -15,8 +15,8 @@ extraFallSpeed = 1.2; // when down is held
 Yscale = 1;
 Xscale = 1;
 
-squishedScale = .4;
-extendedScale = 1.3;
+squishedScale = .6;
+extendedScale = 1.2;
 squishBackMod = 1.1;
 extendBackMod = .96;
 
