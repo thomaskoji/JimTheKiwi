@@ -72,6 +72,7 @@ switch state
 				Yscale = squishedScale;
 				Xscale = extendedScale;
 				currentSprite = spr_kiwiJump;
+				instance_create_layer(x, y, "players", obj_jumpParticle);
 			}
 		
 			if (global.upPressed and !doubleJumped)

@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "065e8a7e-13e7-420b-bc9e-4ff5ad5a58be",
+            "Value": {
+                "id": "421371f2-af8e-429d-903e-40289c9c86c3",
+                "resourcePath": "objects\\obj_jumpParticle\\obj_jumpParticle.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "08ae1346-3784-443e-b916-730e626b34dd",
             "Value": {
                 "id": "d4d579cc-7967-4466-afa2-47a219126de4",
