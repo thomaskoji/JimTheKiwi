@@ -14,7 +14,7 @@ var _rm   = 10; // quantity modifier for randomizer
 
 part_emitter_region(ps, pe, obj_player.x+_xmin, obj_player.x+_xmax, obj_player.y+_ymin,obj_player.y+_ymax, ps_shape_ellipse, ps_distr_gaussian);
 part_type_alpha2(pt, 1, 0);
-part_type_color1(pt, global.secondaryColour);
+//part_type_color1(pt, global.secondaryColour);
 part_type_life(pt, 0, room_speed*_lt);
 part_type_gravity(pt, _grav, 90);
 part_type_blend(pt,true);
