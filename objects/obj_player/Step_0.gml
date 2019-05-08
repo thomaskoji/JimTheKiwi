@@ -73,9 +73,9 @@ switch state
 				currentSprite = spr_kiwiJump;
 				
 				// spawn jump smoke particle
-				repeat 10
+				repeat 6
 				{
-					var _xPlus = irandom_range(-5,5);
+					var _xPlus = irandom_range(-6,0);
 					var _yPlus = irandom_range(-2,2);
 					part_particles_create(global.psShallow, x + _xPlus, bbox_bottom + _yPlus, global.jumpSmokeParticle, 1);
 				}

@@ -28,11 +28,14 @@ gpu_set_fog(true, global.secondaryColour, 0, 1);
 
 with(par_obstacle)
 {
-	draw_sprite_pos(sprite_index, image_index, 
-		bbox_left-viewX-sx,bbox_top-viewY-sy, 
-		bbox_right-viewX-sx, bbox_top-viewY-sy, 
-		bbox_right-viewX, bbox_bottom-viewY, 
-		bbox_left-viewX, bbox_bottom-viewY, 1);
+	if (object_index != obj_cloud)
+	{
+		draw_sprite_pos(sprite_index, image_index, 
+			bbox_left-viewX-sx,bbox_top-viewY-sy, 
+			bbox_right-viewX-sx, bbox_top-viewY-sy, 
+			bbox_right-viewX, bbox_bottom-viewY, 
+			bbox_left-viewX, bbox_bottom-viewY, 1);
+	}
 }
 
 //	resetting the gpu_set_fog

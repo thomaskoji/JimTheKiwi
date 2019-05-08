@@ -8,6 +8,7 @@
 		draw_set_valign(fa_center);
 		draw_text_ext_transformed_color
 		(room_width/2, 22, "JIM THE KIWI", 6, 100, 2, 2, 0, _c, _c, _c, _c, 1);
+		draw_set_color(global.mainMenuTextColour);
 		draw_text(room_width/2, room_height*7/8, "PRESS  Q  TO  QUIT");
 	}
 

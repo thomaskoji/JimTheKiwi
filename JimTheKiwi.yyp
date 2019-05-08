@@ -679,6 +679,22 @@
             }
         },
         {
+            "Key": "f529cc55-4030-446a-b788-ad93e82f23c7",
+            "Value": {
+                "id": "ef9f37f9-f503-4406-8634-8e04571748bf",
+                "resourcePath": "sprites\\spr_jumpSmokeParticle\\spr_jumpSmokeParticle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "fb4b9897-303e-4bf4-9b48-e375e68fb6d1",
+            "Value": {
+                "id": "81966f2a-c672-473d-b12f-55a6b91f4ab5",
+                "resourcePath": "sprites\\spr_shadows\\spr_shadows.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ff4bb04d-75b4-4700-8dd2-2330426058e2",
             "Value": {
                 "id": "5f83f848-3580-41fa-ad0c-483bcef76a9c",

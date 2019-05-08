@@ -15,5 +15,6 @@ global.cloudYmin = 10;
 obstacles = 0;
 clouds = 1;
 
+
  alarm[obstacles] = global.firstSpawnTimer;
  alarm[clouds] = random_range(global.cloudSpawnMax, global.cloudSpawnMin);
