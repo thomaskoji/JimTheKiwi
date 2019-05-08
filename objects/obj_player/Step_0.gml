@@ -157,6 +157,9 @@ switch state
 			{
 				state = playerStates.wait;
 				state_new = true;
+				velocity[XAXIS] = 0;
+				velocity[YAXIS] = 0;
+				y = startY;
 			}
 		break;
 	#endregion
