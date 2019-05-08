@@ -26,7 +26,8 @@ var sy = global.shadowHeight;
 //	making the shadows compleatly black
 gpu_set_fog(true, global.secondaryColour, 0, 1);
 
-with(obj_parent){
+with(par_obstacle)
+{
 	draw_sprite_pos(sprite_index, image_index, 
 		bbox_left-viewX-sx,bbox_top-viewY-sy, 
 		bbox_right-viewX-sx, bbox_top-viewY-sy, 

@@ -1,6 +1,6 @@
 event_inherited();
 // setting animation speed
-image_speed = ANIMSPEEDHALF;
+image_speed = .5;
 
 switch state
 {
@@ -24,7 +24,7 @@ switch state
 		
 		//sprite
 		sprite_index = spr_kangarooAttack // THIS SPRITE IS PLACE HOLDER
-		image_speed = ANIMSPEEDDBL;
+		image_speed = 2;
 		//stopping sprite at last frame
 		if(image_index = image_number - 1)
 		{

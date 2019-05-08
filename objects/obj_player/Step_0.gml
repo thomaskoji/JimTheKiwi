@@ -13,7 +13,7 @@ switch state
 		case playerStates.wait:
 		
 			// Animation
-			image_speed = DEFAULTANIMSPD;
+			image_speed = DEFAULT_ANIM_SPEED;
 			currentSprite = spr_kiwiWalk;
 		
 			if (state_new)
@@ -60,7 +60,6 @@ switch state
 			previousState = playerStates.wait;
 		break;
 	#endregion
-	
 	#region jump
 		case playerStates.jump:
 			previousState = playerStates.jump;
@@ -130,15 +129,16 @@ switch state
 			}
 		break;
 	#endregion
-		
 	#region duck
 		case playerStates.duck:
 			previousState = playerStates.duck;
 			if(global.downHeld)
 			{
 				state_new = false;
-				image_speed = DEFAULTANIMSPD;
+				image_speed = DEFAULT_ANIM_SPEED;
 				currentSprite = spr_kiwiDuck;
+				Yscale = 1;
+				Xscale = 1;
 			}else
 			{
 				state = playerStates.wait;
@@ -152,7 +152,6 @@ switch state
 			} 
 		break;
 	#endregion
-	
 	#region gameOver
 		case playerStates.game_over:
 			state_new = false;
