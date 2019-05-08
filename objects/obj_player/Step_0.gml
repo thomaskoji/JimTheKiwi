@@ -72,7 +72,14 @@ switch state
 				Yscale = squishedScale;
 				Xscale = extendedScale;
 				currentSprite = spr_kiwiJump;
-				instance_create_layer(x, y, "players", obj_jumpParticle);
+				
+				// spawn jump smoke particle
+				repeat 10
+				{
+					var _xPlus = irandom_range(-5,5);
+					var _yPlus = irandom_range(-2,2);
+					part_particles_create(global.psShallow, x + _xPlus, bbox_bottom + _yPlus, global.jumpSmokeParticle, 1);
+				}
 			}
 		
 			if (global.upPressed and !doubleJumped)

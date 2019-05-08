@@ -31,11 +31,11 @@
     },
     "resources": [
         {
-            "Key": "065e8a7e-13e7-420b-bc9e-4ff5ad5a58be",
+            "Key": "05f00512-4042-40f9-af5f-87d69a1bf943",
             "Value": {
-                "id": "421371f2-af8e-429d-903e-40289c9c86c3",
-                "resourcePath": "objects\\obj_jumpParticle\\obj_jumpParticle.yy",
-                "resourceType": "GMObject"
+                "id": "4da1817e-a1fc-4545-904e-6da57741ff45",
+                "resourcePath": "sprites\\spr_particleController\\spr_particleController.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -124,6 +124,14 @@
                 "id": "e694b064-052d-438f-ae3e-cf7aed90e0ce",
                 "resourcePath": "sprites\/spr_inputController\/spr_inputController.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "2d2dc95c-5120-44f4-b52b-9f8b6b82d157",
+            "Value": {
+                "id": "74499bf2-2cd9-4535-977c-ef0605ded54e",
+                "resourcePath": "objects\\obj_particleController\\obj_particleController.yy",
+                "resourceType": "GMObject"
             }
         },
         {

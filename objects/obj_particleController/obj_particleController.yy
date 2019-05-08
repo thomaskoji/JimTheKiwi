@@ -1,44 +1,34 @@
 {
-    "id": "065e8a7e-13e7-420b-bc9e-4ff5ad5a58be",
+    "id": "2d2dc95c-5120-44f4-b52b-9f8b6b82d157",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_jumpParticle",
+    "name": "obj_particleController",
     "eventList": [
         {
-            "id": "1d854cbc-8b85-48a4-bc73-a9e5d41b1408",
+            "id": "9e96c53e-7377-4bd6-b99c-370f2e17dca5",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "065e8a7e-13e7-420b-bc9e-4ff5ad5a58be"
+            "m_owner": "2d2dc95c-5120-44f4-b52b-9f8b6b82d157"
         },
         {
-            "id": "a3c43d4c-d5c7-48d2-a1b4-e6a9dfaa513a",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "065e8a7e-13e7-420b-bc9e-4ff5ad5a58be"
-        },
-        {
-            "id": "6b3ed68e-f94c-4aaf-9b55-01554159b86c",
+            "id": "2a4a24db-77cf-46f9-ab01-c4e7f077a15d",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 3,
             "eventtype": 7,
-            "m_owner": "065e8a7e-13e7-420b-bc9e-4ff5ad5a58be"
+            "m_owner": "2d2dc95c-5120-44f4-b52b-9f8b6b82d157"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "00000000-0000-0000-0000-000000000000",
-    "persistent": false,
+    "parentObjectId": "d4c64dda-5f75-4c83-ba94-be9626504ce9",
+    "persistent": true,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
     "physicsFriction": 0.2,
@@ -53,6 +43,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "00000000-0000-0000-0000-000000000000",
-    "visible": true
+    "spriteId": "05f00512-4042-40f9-af5f-87d69a1bf943",
+    "visible": false
 }
