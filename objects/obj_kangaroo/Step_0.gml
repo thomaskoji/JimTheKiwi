@@ -15,7 +15,7 @@ switch state
 		
 
 // sprite
-		sprite_index = spr_kangaroo;  // THIS SPRITE IS PLACE HOLDER
+		sprite_index = spr_kangaroo;
 		#endregion
 		break;
 		
@@ -23,7 +23,7 @@ switch state
 		#region attack
 		
 		//sprite
-		sprite_index = spr_kangarooAttack // THIS SPRITE IS PLACE HOLDER
+		sprite_index = spr_kangarooAttack
 		image_speed = 2;
 		//stopping sprite at last frame
 		if(image_index = image_number - 1)
