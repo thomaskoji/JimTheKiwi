@@ -4,9 +4,9 @@ event_inherited();
 global.runSpeed = 1.5;
 global.spawnFrequency = 2;
 global.baseY = 35 ;
-global.firstSpawnTimer = .5;
+global.firstSpawnTimer = 1;
 
-global.cloudSpawnMax = 40;
+global.cloudSpawnMax = 30;
 global.cloudSpawnMin = 10;
 
 global.cloudYmax = 40;

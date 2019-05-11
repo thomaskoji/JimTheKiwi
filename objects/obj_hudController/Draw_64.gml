@@ -1,4 +1,3 @@
-
 #region START SCREEN
 
 	var _c = global.secondaryColour;

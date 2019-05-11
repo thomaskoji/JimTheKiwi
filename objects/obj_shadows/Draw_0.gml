@@ -38,6 +38,15 @@ with(par_obstacle)
 	}
 }
 
+with(obj_player)
+{
+	draw_sprite_pos(sprite_index, image_index, 
+	bbox_left-viewX-sx,bbox_top-viewY-sy, 
+	bbox_right-viewX-sx, bbox_top-viewY-sy, 
+	bbox_right-viewX, bbox_bottom-viewY, 
+	bbox_left-viewX, bbox_bottom-viewY, 1);
+}
+
 //	resetting the gpu_set_fog
 gpu_set_fog(false, c_white, 0, 0);
 

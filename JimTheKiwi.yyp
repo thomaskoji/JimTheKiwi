@@ -159,6 +159,14 @@
             }
         },
         {
+            "Key": "33eedeb1-d901-484c-bd74-52e9ef1d3490",
+            "Value": {
+                "id": "3c754ddd-2ffc-411e-a051-3441148d6409",
+                "resourcePath": "sprites\\spr_flappyBirdPipe\\spr_flappyBirdPipe.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3607bef1-8686-4466-bfba-dff22ffff545",
             "Value": {
                 "id": "78ea7f2f-ba4b-46d0-8dc8-a4cc65a980a3",
@@ -479,6 +487,14 @@
             }
         },
         {
+            "Key": "9308682f-74e3-4fc1-b680-c88de937a628",
+            "Value": {
+                "id": "93195f62-6304-42f5-a202-d7a9701b0376",
+                "resourcePath": "views\\9308682f-74e3-4fc1-b680-c88de937a628.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "943e3d69-ef75-4073-90d9-1e62cdb0e5e2",
             "Value": {
                 "id": "759c8ade-9456-41ac-8528-5fc82e740582",
@@ -503,6 +519,14 @@
             }
         },
         {
+            "Key": "95b59399-4f57-4732-9f40-587ab3f40f8e",
+            "Value": {
+                "id": "8213e402-7b9b-4292-9691-7f1d612cd5ff",
+                "resourcePath": "objects\\obj_flappyBirdPipeTop\\obj_flappyBirdPipeTop.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "987a11e2-e988-4f87-8cbf-81c72e928c23",
             "Value": {
                 "id": "aa4d049c-da93-4ace-aba2-968fec78204a",
@@ -515,6 +539,14 @@
             "Value": {
                 "id": "c95e89cd-57ee-4601-85ed-e508ee3463f1",
                 "resourcePath": "sprites\/spr_tree\/spr_tree.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a15b628b-64b6-472b-9e46-34f57a8fc2a0",
+            "Value": {
+                "id": "f999730d-04b5-4b9f-8bcb-712206b79e0c",
+                "resourcePath": "sprites\\spr_flappyBirdPipeTop\\spr_flappyBirdPipeTop.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -572,6 +604,14 @@
                 "id": "4b445717-b6fa-41b8-bf4a-bcb954ad4438",
                 "resourcePath": "views\/bac8ec29-1db8-46cd-8155-c29af4434f28.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c08c5a04-43e2-4ed4-9b77-914d3bf7ceea",
+            "Value": {
+                "id": "9ca52ddc-f27d-4670-b571-66603adfa870",
+                "resourcePath": "objects\\obj_flappyBirdPipe\\obj_flappyBirdPipe.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -684,6 +724,14 @@
                 "id": "ef9f37f9-f503-4406-8634-8e04571748bf",
                 "resourcePath": "sprites\\spr_jumpSmokeParticle\\spr_jumpSmokeParticle.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f5e9cc8c-bb48-4f22-972d-045cab6a937f",
+            "Value": {
+                "id": "672cb654-2b71-414a-b144-c1af779e2be2",
+                "resourcePath": "views\\f5e9cc8c-bb48-4f22-972d-045cab6a937f.yy",
+                "resourceType": "GMFolder"
             }
         },
         {

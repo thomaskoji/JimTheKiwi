@@ -1,7 +1,7 @@
 /// @description cloud spawner
 
-var _cloudYRange = random_range(global.cloudYmax, global.cloudYmin);
-var _cloud = instance_create_layer(room_width + 16, _cloudYRange,"obstacles", obj_cloud);
+var _cloudY = random_range(global.cloudYmax, global.cloudYmin);
+var _cloud = instance_create_layer(room_width + 16, _cloudY,"obstacles", obj_cloud);
 
 _cloud.image_xscale = random_range(1,2);
 _cloud.image_yscale = _cloud.image_xscale;

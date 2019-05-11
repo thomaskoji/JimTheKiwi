@@ -8,7 +8,7 @@
         "3607bef1-8686-4466-bfba-dff22ffff545"
     ],
     "filterType": "GMSprite",
-    "folderName": "Kangaroo",
+    "folderName": "kangaroo",
     "isDefaultView": false,
     "localisedFolderName": ""
 }
