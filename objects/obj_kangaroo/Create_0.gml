@@ -2,4 +2,4 @@
 state = obstacleStates.wait;
 state_new = true;
 
-triggerPointX = 100;
+triggerPointX = 60;
