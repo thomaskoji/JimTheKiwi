@@ -9,8 +9,8 @@ global.firstSpawnTimer = 1;
 global.cloudSpawnMax = 30;
 global.cloudSpawnMin = 10;
 
-global.cloudYmax = 40;
-global.cloudYmin = 10;
+global.cloudYmax = 30;
+global.cloudYmin = -10;
 
 obstacles = 0;
 clouds = 1;
