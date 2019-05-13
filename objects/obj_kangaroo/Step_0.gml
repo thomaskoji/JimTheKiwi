@@ -24,7 +24,7 @@ switch state
 		
 		//sprite
 		sprite_index = spr_kangarooAttack
-		image_speed = 3;
+		image_speed = 2;
 		//stopping sprite at last frame
 		if image_index > image_number - 1
 		{

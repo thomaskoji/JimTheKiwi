@@ -391,6 +391,14 @@
             }
         },
         {
+            "Key": "78c48406-cacd-47aa-8d6d-b4a88cebf478",
+            "Value": {
+                "id": "0c63e4b3-e29e-49f6-85e6-ffc65c2e198a",
+                "resourcePath": "sprites\\spr_cloudGameOver\\spr_cloudGameOver.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7d26cac5-dade-4827-96ef-6ec0ba507cd8",
             "Value": {
                 "id": "61aeda08-f22e-43d8-b2e8-42f7c05a89cc",
