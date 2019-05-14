@@ -5,33 +5,13 @@
     "name": "obj_flappyBirdPipe",
     "eventList": [
         {
-            "id": "f1b972d9-c264-49ea-8513-45125982e62d",
+            "id": "c12ae70f-6aeb-4589-86eb-b3b486d3b258",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "c08c5a04-43e2-4ed4-9b77-914d3bf7ceea"
-        },
-        {
-            "id": "63149d36-8787-4fb3-86b0-a5911baa647f",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "c08c5a04-43e2-4ed4-9b77-914d3bf7ceea"
-        },
-        {
-            "id": "84e1b51d-23b9-4725-9a03-45e6cbbd9848",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 8,
             "m_owner": "c08c5a04-43e2-4ed4-9b77-914d3bf7ceea"
         }
     ],

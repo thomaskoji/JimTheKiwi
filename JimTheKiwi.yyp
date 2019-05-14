@@ -527,14 +527,6 @@
             }
         },
         {
-            "Key": "95b59399-4f57-4732-9f40-587ab3f40f8e",
-            "Value": {
-                "id": "8213e402-7b9b-4292-9691-7f1d612cd5ff",
-                "resourcePath": "objects\\obj_flappyBirdPipeTop\\obj_flappyBirdPipeTop.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "987a11e2-e988-4f87-8cbf-81c72e928c23",
             "Value": {
                 "id": "aa4d049c-da93-4ace-aba2-968fec78204a",
@@ -547,14 +539,6 @@
             "Value": {
                 "id": "c95e89cd-57ee-4601-85ed-e508ee3463f1",
                 "resourcePath": "sprites\/spr_tree\/spr_tree.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "a15b628b-64b6-472b-9e46-34f57a8fc2a0",
-            "Value": {
-                "id": "f999730d-04b5-4b9f-8bcb-712206b79e0c",
-                "resourcePath": "sprites\\spr_flappyBirdPipeTop\\spr_flappyBirdPipeTop.yy",
                 "resourceType": "GMSprite"
             }
         },
