@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "107b2505-e155-47a3-adb9-4d3c333f77e5",
+            "Value": {
+                "id": "226329bf-af22-4650-bc49-51993dc8dfe0",
+                "resourcePath": "views\\107b2505-e155-47a3-adb9-4d3c333f77e5.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "11077617-96fb-4143-89b0-57eb24a19cfe",
             "Value": {
                 "id": "64660a58-d8e3-46f9-8eca-b72f03937340",
@@ -284,6 +292,14 @@
                 "id": "b8ff064e-b13c-453e-8146-bd284c2bc6a1",
                 "resourcePath": "scripts\/scr_initDisplay\/scr_initDisplay.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "5b5cb56f-7855-4217-bc25-5d6e0f99c0ee",
+            "Value": {
+                "id": "7d4ba8cf-0713-46fd-8086-04a41e82b03a",
+                "resourcePath": "sprites\\spr_bird\\spr_bird.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -543,6 +559,14 @@
             }
         },
         {
+            "Key": "a5340d49-3786-4d35-9dab-4b80d5406288",
+            "Value": {
+                "id": "812ead98-5156-4ef7-b468-3d2d153641ec",
+                "resourcePath": "sprites\\spr_flappyBirdPipeDown\\spr_flappyBirdPipeDown.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a61154db-c5e1-4adc-b2d8-abc5b448f99f",
             "Value": {
                 "id": "2101306d-8273-4b12-9591-476c6d9311dc",
@@ -556,6 +580,14 @@
                 "id": "51268b04-ca95-47bb-9063-38936bcb3fe3",
                 "resourcePath": "options\/linux\/options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "a98de5d2-b0d7-49cc-b4f8-74ccf274d426",
+            "Value": {
+                "id": "6c59572a-d4ab-418c-8cb3-2f93b8898fc4",
+                "resourcePath": "objects\\obj_flappyBirdPipeDown\\obj_flappyBirdPipeDown.yy",
+                "resourceType": "GMObject"
             }
         },
         {
