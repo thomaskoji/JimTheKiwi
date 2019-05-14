@@ -16,3 +16,8 @@ if(place_meeting(x,y,obj_player))
 	_prs = global.runSpeed;
 	global.runSpeed = 0;
 }
+
+if(object_index != obj_cloud and global.gameHasNotStarted)
+{
+	instance_destroy();
+}
