@@ -1,4 +1,4 @@
-image_blend = global.secondColour;
+image_blend = global.firstColour;
 draw_self();
 
 var _stateName = "";

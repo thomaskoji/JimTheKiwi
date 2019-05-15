@@ -24,8 +24,7 @@ var sx = global.skewX;
 var sy = global.shadowHeight;
 
 //	making the shadows compleatly black
-gpu_set_fog(true, global.secondColour, 0, 1);
-
+gpu_set_fog(true, c_black, 0, 1);
 with(par_obstacle)
 {
 	if (object_index != obj_cloud)
@@ -54,7 +53,7 @@ gpu_set_fog(false, c_white, 0, 0);
 surface_reset_target();
 
 //	setting all the drawn shadows to become 0.5 opacity
-draw_set_alpha(0.5);
+draw_set_alpha(0.1);
 
 //	rawing the shadow surface
 draw_surface(shadowSurface, viewX, viewY);

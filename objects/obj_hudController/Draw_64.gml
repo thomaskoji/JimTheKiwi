@@ -1,6 +1,6 @@
 #region START SCREEN
 
-	var _c = global.firstColour;
+	var _c = global.secondColour;
 	if(global.gameHasNotStarted)
 	{
 		draw_set_halign(fa_center);
