@@ -1,0 +1,20 @@
+{
+    "id": "f22d20ab-7925-497e-9d87-56963d064d0f",
+    "modelName": "GMFolder",
+    "mvc": "1.1",
+    "name": "f22d20ab-7925-497e-9d87-56963d064d0f",
+    "children": [
+        "aa63316e-238d-454e-8fc9-9cc3ba73bd0b",
+        "934b6c2c-2bbd-4dc7-afe0-53cab3589d59",
+        "74b6b212-e635-4e4d-af6c-9d968809ea97",
+        "eaf550bb-4ebb-4c36-8291-437ec919be94",
+        "95467439-b538-4030-ba9e-066569fb5000",
+        "51160357-d1eb-42f1-8ff9-cdf0b362d504",
+        "138aa3a4-5a60-42e0-8508-e38dd00ddf25",
+        "2a807607-8cea-4391-9260-1360d49fc02a"
+    ],
+    "filterType": "GMScript",
+    "folderName": "State System",
+    "isDefaultView": false,
+    "localisedFolderName": ""
+}

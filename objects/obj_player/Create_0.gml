@@ -1,10 +1,13 @@
+scr_stateMachineCreate();
+scr_stateAdd("wait", player_state_wait);
+scr_stateAdd("jump", player_state_jump);
+scr_stateAdd("duck", player_state_duck);
+scr_stateAdd("gameover", player_state_gameover);
+scr_stateBeginIn("wait");
+
 startY = y;
 
 currentSprite = spr_kiwiWalk;
-
-state = playerStates.wait;
-state_new = true;
-previousState = playerStates.wait;
 doubleJumped = false;
 
 grav = .2;

@@ -1,12 +1,3 @@
-enum playerStates
-{
-	wait,
-	jump,
-	duck,
-	game_over,
-	enum_size
-}
-
 enum obstacleStates
 {
 	wait,
