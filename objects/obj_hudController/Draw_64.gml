@@ -1,6 +1,6 @@
 #region START SCREEN
 
-	var _c = global.secondaryColour;
+	var _c = global.firstColour;
 	if(global.gameHasNotStarted)
 	{
 		draw_set_halign(fa_center);
@@ -78,7 +78,7 @@
 	if(global.gameOver == true)
 	{
 		// hud bg
-		draw_sprite_ext(spr_gameoverSquare, 0, room_width/2, room_height/2, 1, 1, 0, global.secondaryColour, 1);
+		draw_sprite_ext(spr_gameoverSquare, 0, room_width/2, room_height/2, 1, 1, 0, global.secondColour, 1);
 	
 		// text
 		draw_set_valign(fa_center);

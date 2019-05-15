@@ -1,2 +1,2 @@
-image_blend = global.secondaryColour;
+image_blend = global.firstColour;
 draw_self();

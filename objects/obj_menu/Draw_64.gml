@@ -3,7 +3,7 @@ if(!global.pause) exit;
 var gwidth = global.view_width, gheight = global.view_height;
 
 //Draw Pause Menu "Back"
-var c = global.secondaryColour;
+var c = global.secondColour;
 draw_set_alpha(0.5);
 draw_rectangle_color(0,0,gwidth, gheight, c,c,c,c, false);
 draw_set_alpha(1);

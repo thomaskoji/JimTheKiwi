@@ -24,7 +24,7 @@ var sx = global.skewX;
 var sy = global.shadowHeight;
 
 //	making the shadows compleatly black
-gpu_set_fog(true, global.secondaryColour, 0, 1);
+gpu_set_fog(true, global.secondColour, 0, 1);
 
 with(par_obstacle)
 {
