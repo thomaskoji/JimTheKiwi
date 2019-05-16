@@ -15,13 +15,7 @@ if (global.downHeld)
 {
 	scr_stateSwitch("duck");
 }
-/*
-if (state_previous = "jump")
-{
-	Xscale = squishedScale;
-	Yscale = extendedScale;
-}
-*/	
+
 if (Xscale < 1)
 {
 	Xscale *= squishBackMod;
