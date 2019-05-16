@@ -4,7 +4,8 @@ if(global.downHeld)
 	currentSprite = spr_kiwiDuck;
 	Yscale = 1;
 	Xscale = 1;
-}else
+}
+else
 {
 	scr_stateSwitch("wait");
 }
