@@ -8,7 +8,8 @@
         "8a058a8b-0f37-4c98-9171-9ce087b05fa2",
         "d4613ce7-f51d-400c-a7e3-4a046dbc192f",
         "f5e9cc8c-bb48-4f22-972d-045cab6a937f",
-        "107b2505-e155-47a3-adb9-4d3c333f77e5"
+        "107b2505-e155-47a3-adb9-4d3c333f77e5",
+        "f6a4fa92-c67d-448e-be55-a9b03abbdb83"
     ],
     "filterType": "GMSprite",
     "folderName": "obstacles",

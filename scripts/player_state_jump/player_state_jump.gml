@@ -49,6 +49,7 @@ else
 {
 	Xscale = 1;
 }
+
 velocity[YAXIS] += grav;
 		
 // if we are about to touch the ground

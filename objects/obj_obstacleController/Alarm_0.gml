@@ -4,7 +4,7 @@ var _chance = random_range(0,100);
 
 if(!global.gameHasNotStarted and _chance > 30) // ← chance to spawn pipe
 {
-	var _obstacleType = choose(obj_kangaroo, obj_tree);
+	var _obstacleType = choose(obj_frog);
 	instance_create_layer(room_width + 16, room_height - global.baseY,"obstacles", _obstacleType);
 }
 else if (_chance  > 10)
