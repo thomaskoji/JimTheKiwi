@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "1c83e9a9-b4c0-4c55-b565-d7674e2f6838",
+            "Value": {
+                "id": "f799d0d5-3700-450d-8d32-45635fb537b1",
+                "resourcePath": "sprites\\spr_questionBlock\\spr_questionBlock.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1d14989d-9961-4e95-825c-3f79b46db7fb",
             "Value": {
                 "id": "2d3ada79-5481-4c79-8dee-2278f5842532",
@@ -663,6 +671,14 @@
             }
         },
         {
+            "Key": "a3fb526c-b212-4a9a-9d07-07b56076a250",
+            "Value": {
+                "id": "76a4e98e-353f-4648-910c-c69bd3dd2dc7",
+                "resourcePath": "views\\a3fb526c-b212-4a9a-9d07-07b56076a250.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "a5340d49-3786-4d35-9dab-4b80d5406288",
             "Value": {
                 "id": "812ead98-5156-4ef7-b468-3d2d153641ec",
@@ -788,6 +804,14 @@
                 "id": "cb4b032c-37f0-46ec-bd5c-8d61f4a0ddfa",
                 "resourcePath": "scripts\/change_window_mode\/change_window_mode.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "c951e851-6b99-4d24-9158-eff60b65236a",
+            "Value": {
+                "id": "578bb486-9678-4012-802c-289f2575b0ac",
+                "resourcePath": "objects\\obj_questionBlock\\obj_questionBlock.yy",
+                "resourceType": "GMObject"
             }
         },
         {
