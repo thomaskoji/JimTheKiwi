@@ -1,11 +1,16 @@
 var _prs = 0;
 
-if ( x < -100 or global.gameRestart )
+if ( x < -100 )
+{
+	instance_destroy();
+}
+
+if global.gameRestart
 {
 	instance_destroy();
 	global.gameRestart = false;
 	global.gameOver = false;
-	global.runSpeed = 1.5;
+	global.runSpeed = runspeed;
 }
 
 x -= global.runSpeed;

@@ -1,7 +1,7 @@
 // Inherit the parent event
 event_inherited();
 
-global.runSpeed = 1.8;
+global.runSpeed = 2;
 global.spawnFrequency = 1.5;
 global.baseY = 35 ;
 global.firstSpawnTimer = 1;

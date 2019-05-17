@@ -1,3 +1,4 @@
+event_inherited();
 state = obstacleStates.wait;
 state_new = false;
 velocity[YAXIS] = 0;
