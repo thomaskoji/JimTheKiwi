@@ -66,10 +66,36 @@
             "visible": true
         },
         {
+            "__type": "GMRAssetLayer_Model:#YoYoStudio.MVCFormat",
+            "name": "Assets_1",
+            "id": "d994e302-b7e8-493c-bdc2-ad9920f9fc34",
+            "assets": [
+
+            ],
+            "depth": 200,
+            "grid_x": 2,
+            "grid_y": 2,
+            "hierarchyFrozen": false,
+            "hierarchyVisible": true,
+            "inheritLayerDepth": false,
+            "inheritLayerSettings": false,
+            "inheritSubLayers": false,
+            "inheritVisibility": false,
+            "layers": [
+
+            ],
+            "m_parentID": "00000000-0000-0000-0000-000000000000",
+            "m_serialiseFrozen": false,
+            "modelName": "GMRAssetLayer",
+            "mvc": "1.0",
+            "userdefined_depth": false,
+            "visible": true
+        },
+        {
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
             "name": "instances",
             "id": "145462fa-99b7-42df-9888-4bb86753383b",
-            "depth": 200,
+            "depth": 300,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
@@ -95,7 +121,7 @@
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
             "name": "Shadows",
             "id": "b5f6fe5a-dcd0-4280-9847-bddde37c9f98",
-            "depth": 300,
+            "depth": 400,
             "grid_x": 2,
             "grid_y": 2,
             "hierarchyFrozen": false,
@@ -125,7 +151,7 @@
             "animationFPS": 15,
             "animationSpeedType": "0",
             "colour": { "Value": 4292667133 },
-            "depth": 400,
+            "depth": 500,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,

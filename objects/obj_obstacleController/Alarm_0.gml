@@ -2,10 +2,14 @@
 
 var _chance = random_range(0,100);
 
-if(!global.gameHasNotStarted)
+if(!global.gameHasNotStarted and _chance > 5)
 {
-	var _obstacleType = choose(obj_kangaroo, obj_tree, obj_frog, obj_questionBlock, obj_flappyBirdPipe, obj_flappyBirdPipeDown);
+	var _obstacleType = choose(obj_kangaroo, obj_tree, obj_frog, obj_flappyBirdPipe, obj_flappyBirdPipeDown, obj_togetoge);
 	instance_create_layer(room_width + 16, room_height - global.baseY,"obstacles", _obstacleType);
+}
+else
+{
+	instance_create_layer(room_width + 16, room_height - global.baseY,"obstacles", obj_questionBlock);
 }
 
 	//randomizing the seed

@@ -183,6 +183,14 @@
             }
         },
         {
+            "Key": "290829a3-3b39-45d4-a9ea-a864562e635f",
+            "Value": {
+                "id": "576c933a-c9b3-41c7-af85-db3a3f3fdbb2",
+                "resourcePath": "objects\\obj_togetoge\\obj_togetoge.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2a807607-8cea-4391-9260-1360d49fc02a",
             "Value": {
                 "id": "c9bdb7d6-dc4b-47f5-87aa-23ffef0454bf",
@@ -276,6 +284,14 @@
                 "id": "1279c4e8-27c5-4b2f-9872-5bdfcf5b4b16",
                 "resourcePath": "objects\/obj_mainController\/obj_mainController.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "44a93d7d-1e7d-4955-838a-94acb56eb8b5",
+            "Value": {
+                "id": "e3dcab3e-78f2-4892-b562-f498e6fbdaf7",
+                "resourcePath": "views\\44a93d7d-1e7d-4955-838a-94acb56eb8b5.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -620,6 +636,14 @@
                 "id": "0dd6adb9-ecc0-4558-969d-31111965d6e4",
                 "resourcePath": "scripts\\scr_stateMachineCleanup\\scr_stateMachineCleanup.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "938d18da-bd96-4d6b-af7c-152c1ef23c43",
+            "Value": {
+                "id": "61637798-15a1-48fd-a70a-003e78ac3a28",
+                "resourcePath": "sprites\\spr_togetoge\\spr_togetoge.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
