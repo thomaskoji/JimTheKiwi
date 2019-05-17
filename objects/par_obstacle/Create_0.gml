@@ -1,1 +1,0 @@
-runspeed = global.runSpeed;

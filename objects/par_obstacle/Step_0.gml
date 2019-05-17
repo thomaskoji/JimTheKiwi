@@ -10,7 +10,7 @@ if global.gameRestart
 	instance_destroy();
 	global.gameRestart = false;
 	global.gameOver = false;
-	global.runSpeed = runspeed;
+	global.runSpeed = global.runSpeedDefult;
 }
 
 x -= global.runSpeed;
