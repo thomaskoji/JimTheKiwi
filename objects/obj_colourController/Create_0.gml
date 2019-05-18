@@ -9,3 +9,9 @@ global.fifthColour			= make_color_rgb(11, 76, 161);
 global.sixthColour			= make_color_rgb(26, 51, 56);
 global.debugColour			= make_color_rgb(83,161,209);
 global.mainMenuTextColour	= make_color_rgb(30,30,30);
+
+colourGrid = ds_grid_create(6,0);
+global.currentColourSet = 0;
+
+scr_addColourSet($ffd4c1, $fde6dc, $c4c8e1, $53a1d1, $0070a1, $0b4c65);
+scr_addColourSet($acd788, $8dc47b, $5a955c, $366f5f, $08515f, $07405c);

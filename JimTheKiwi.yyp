@@ -311,6 +311,14 @@
             }
         },
         {
+            "Key": "47c69426-bb2a-4fc6-8788-612baed0aa82",
+            "Value": {
+                "id": "7588726f-4e7f-494d-8aba-9c93de5eecbe",
+                "resourcePath": "scripts\\scr_addColourSet\\scr_addColourSet.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "4a71d324-33c4-4732-9898-7a0569e8c126",
             "Value": {
                 "id": "6120ede0-7c97-4c9d-8074-2f301740f2d7",
@@ -567,14 +575,6 @@
             }
         },
         {
-            "Key": "8836048d-dd89-477c-8ad8-07dd12d7ad2d",
-            "Value": {
-                "id": "632b016f-8f6c-4b5d-9fcc-0a8a2e9fe061",
-                "resourcePath": "objects\/obj_menu\/obj_menu.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "88a2f308-7cc8-49e6-a764-f653c5446cb5",
             "Value": {
                 "id": "5a557058-8de5-47e6-8a57-c12cd5ae5b6c",
@@ -807,6 +807,14 @@
             }
         },
         {
+            "Key": "bf6eea44-d044-47d4-847d-d63f8e8c9aeb",
+            "Value": {
+                "id": "2484600b-171f-4fe5-b747-4b8a78938524",
+                "resourcePath": "views\\bf6eea44-d044-47d4-847d-d63f8e8c9aeb.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "c08c5a04-43e2-4ed4-9b77-914d3bf7ceea",
             "Value": {
                 "id": "9ca52ddc-f27d-4670-b571-66603adfa870",
@@ -900,6 +908,14 @@
                 "id": "6ea540dd-ed81-413b-90d6-6c64dcfc910b",
                 "resourcePath": "views\/d9394b8b-035c-4f3a-b5c0-1efd2bcd1b28.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "decb7f3a-ef30-4050-9044-d568c3c2f373",
+            "Value": {
+                "id": "22c48bf0-dde1-43ce-b8e5-fdb25140ab87",
+                "resourcePath": "scripts\\scr_getColour\\scr_getColour.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1046,7 +1062,9 @@
         "2022ed3b-446f-4347-98f5-8d5886288aaa",
         "71fbdc59-d58b-4fbf-b5f5-2c678b48acfb",
         "d4c58b6d-f763-4919-9c6e-076fa0b59ab6",
-        "edeb7490-d125-44b6-b156-76af699385ca"
+        "edeb7490-d125-44b6-b156-76af699385ca",
+        "47c69426-bb2a-4fc6-8788-612baed0aa82",
+        "decb7f3a-ef30-4050-9044-d568c3c2f373"
     ],
     "tutorial": ""
 }
