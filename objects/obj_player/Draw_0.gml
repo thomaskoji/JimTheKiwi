@@ -1,5 +1,5 @@
 
-draw_sprite_ext(currentSprite, image_index, x, y, Yscale, Xscale, 0, scr_getColour(1), 1);
+draw_sprite_ext(currentSprite, image_index, x, y, Yscale, Xscale, 0, $ffd4c1, 1);
 
 if global.debugMode == true
 {

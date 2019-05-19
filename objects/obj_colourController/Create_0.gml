@@ -1,4 +1,4 @@
-
+event_inherited();
 
 global.playerColour			= make_color_rgb(141, 110, 99);
 global.firstColour			= make_color_rgb(253, 230, 220);
