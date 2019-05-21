@@ -1,6 +1,4 @@
-image_blend = global.firstColour;
-draw_self();
-
+event_inherited();
 var _stateName = "";
 
 switch state

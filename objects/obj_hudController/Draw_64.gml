@@ -1,13 +1,13 @@
 #region START SCREEN
 
-	var _c = global.secondColour;
+	var _c = scr_getColour(2);
 	if(global.gameHasNotStarted)
 	{
 		draw_set_halign(fa_center);
 		draw_set_valign(fa_center);
 		draw_text_ext_transformed_color
 		(room_width/2, 22, "JIM THE KIWI", 6, 100, 2, 2, 0, _c, _c, _c, _c, 1);
-		draw_set_color(global.mainMenuTextColour);
+		draw_set_color(scr_getColour(5));
 		draw_text(room_width/2, room_height*7/8, "PRESS  Q  TO  QUIT");
 	}
 
@@ -78,12 +78,12 @@
 	if(global.gameOver == true)
 	{
 		// hud bg
-		draw_sprite_ext(spr_gameoverSquare, 0, room_width/2, room_height/2, 1, 1, 0, global.secondColour, 1);
+		draw_sprite_ext(spr_gameoverSquare, 0, room_width/2, room_height/2, 1, 1, 0, scr_getColour(1), 1);
 	
 		// text
 		draw_set_valign(fa_center);
 		draw_set_halign(fa_center);
-		draw_set_color(global.playerColour);
+		draw_set_color(scr_getColour(3));
 		draw_text(room_width/2, room_height/2 - 13, "SCORE");
 		draw_set_color(c_black);
 		draw_text(room_width/2, room_height/2 - 3, string(global.currentScore));
