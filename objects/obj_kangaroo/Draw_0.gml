@@ -17,7 +17,7 @@ switch state
 if ( global.debugMode )
 {
 	#region debug mode
-	draw_set_color(global.debugColour);
+	draw_set_color(c_blue);
 	draw_set_font(fnt_debug);
 	draw_text(x - 20,y + 15, _stateName);
 	#endregion

@@ -12,6 +12,3 @@ var _dsHeight = ds_grid_height(_ds) - 1;
 ds_grid_set(_ds, 0,_dsHeight,argument0);
 ds_grid_set(_ds, 1,_dsHeight,argument1);
 ds_grid_set(_ds, 2,_dsHeight,argument2);
-ds_grid_set(_ds, 3,_dsHeight,argument3);
-ds_grid_set(_ds, 4,_dsHeight,argument4);
-ds_grid_set(_ds, 5,_dsHeight,argument5);
