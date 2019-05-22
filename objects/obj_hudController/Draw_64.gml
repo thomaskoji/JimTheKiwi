@@ -90,3 +90,6 @@
 		draw_text(room_width/2, room_height/2 + 11, "R  TO PLAY AGAIN");
 	}
 #endregion
+
+draw_text(50, 50, string(global.currentColourSet));
+draw_text(55, 50, string(ds_grid_height(obj_colourController.colourGrid)));
