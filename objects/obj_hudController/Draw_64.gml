@@ -78,7 +78,7 @@
 	if(global.gameOver == true)
 	{
 		// hud bg
-		draw_sprite_ext(spr_gameoverSquare, 0, room_width/2, room_height/2, 1, 1, 0, scr_getColour(1), 1);
+		draw_sprite_ext(spr_gameoverSquare, 0, room_width/2, room_height/2, 1, 1, 0, scr_getColour(2), 1);
 	
 		// text
 		draw_set_valign(fa_center);
