@@ -7,4 +7,4 @@ else
 	global.currentColourSet ++;
 }
 
-alarm[0] = 60;
+alarm[0] = global.colourSetChangeTimer;
