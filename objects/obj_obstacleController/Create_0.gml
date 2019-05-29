@@ -3,7 +3,7 @@ event_inherited();
 
 global.runSpeed = 1.8;
 global.runSpeedDefult = global.runSpeed;
-global.spawnFrequency = 1.2;
+global.spawnFrequency = 1.4;
 global.baseY = 35 ;
 global.firstSpawnTimer = 1;
 
