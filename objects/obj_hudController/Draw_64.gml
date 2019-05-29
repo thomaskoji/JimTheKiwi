@@ -90,6 +90,3 @@
 		draw_text(room_width/2, room_height/2 + 11, "R  TO PLAY AGAIN");
 	}
 #endregion
-
-if global.gameRestart draw_text(100,40,"gr : T");
-else draw_text(100,40,"gr : F");
