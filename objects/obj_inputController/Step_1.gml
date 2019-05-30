@@ -12,13 +12,16 @@ global.confirmReleased = keyboard_check_released(confirmButton);
 
 
 // press P for debug mode
-if(keyboard_check(ord("P"))) global.debugMode = true;
+if(keyboard_check_pressed(ord("P"))) global.debugMode = true;
 else global.debugMode = false;
 
 
 // press Q to end game
-if(keyboard_check(ord("Q"))) game_end();
+if(keyboard_check_pressed(ord("Q"))) game_end();
 
-if(keyboard_check(ord("R"))) global.gameRestart = true;
+if(global.gameOver == true)
+{	
+	if(keyboard_check_pressed(ord("R"))) global.gameRestart = true;
+}
 
-if(keyboard_check(confirmButton)) global.gameHasNotStarted = false;
+if(keyboard_check_pressed(confirmButton)) global.gameHasNotStarted = false;
