@@ -1,1 +1,0 @@
-x = following.x + cameraOffset;

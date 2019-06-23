@@ -34,4 +34,5 @@ max_zoom = floor(display_get_width()/ideal_width);
 
 surface_resize(application_surface, ideal_width, ideal_height);
 window_set_size(ideal_width, ideal_height);
+fullScreen = false;
 alarm[0] = 1; // centers view.

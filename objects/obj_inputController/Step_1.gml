@@ -10,6 +10,10 @@ global.confirmPressed = keyboard_check_pressed(confirmButton);
 global.confirmHeld = keyboard_check(confirmButton);
 global.confirmReleased = keyboard_check_released(confirmButton);
 
+global.anyPressed = keyboard_check_pressed(anyButton);
+global.anyHeld = keyboard_check(anyButton);
+global.anyReleased = keyboard_check_released(anyButton);
+
 
 // press P for debug mode
 if(keyboard_check_pressed(ord("P"))) global.debugMode = true;
@@ -24,4 +28,8 @@ if(global.gameOver == true)
 	if(keyboard_check_pressed(ord("R"))) global.gameRestart = true;
 }
 
-if(keyboard_check_pressed(confirmButton)) global.gameHasNotStarted = false;
+if (room = rm_gameRoom)
+{
+	if(keyboard_check_pressed(anyButton)) 
+	{global.gameHasNotStarted = false;}
+}

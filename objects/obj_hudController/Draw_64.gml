@@ -1,5 +1,4 @@
 #region START SCREEN
-
 	var _c = scr_getColour(2);
 	if(global.gameHasNotStarted)
 	{
@@ -7,19 +6,12 @@
 		draw_set_valign(fa_center);
 		draw_text_ext_transformed_color
 		(room_width/2, 22, "JIM THE KIWI", 6, 100, 2, 2, 0, _c, _c, _c, _c, 1);
+		
+		draw_set_halign(fa_left);
+		draw_set_valign(fa_bottom);
 		draw_set_color(c_black);
-		draw_text(room_width/2, room_height*7/8, "PRESS  Q  TO  QUIT");
+		draw_text(3, room_height+2, "WS:move    E:select");
 	}
-
-	if(timer > DefaultTimer/2 and global.gameHasNotStarted)
-	{
-		draw_text(room_width/2, room_height/2, "press any button");
-	}
-	else
-	{
-		if(timer = 0) timer += DefaultTimer;
-	}
-	timer --;
 #endregion
 
 #region SCORE HUD

@@ -8,7 +8,7 @@ scr_stateBeginIn("wait");
 startY = y;
 
 currentSprite = spr_kiwiWalk;
-doubleJumped = false;
+jumped = false;
 
 grav = .2;
 jumpHeight = 3.5;

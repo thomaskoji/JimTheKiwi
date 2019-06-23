@@ -8,7 +8,7 @@ switch state
 	case obstacleStates.wait:
 		image_speed = 0;
 		image_index = 0;
-		if (collision_line(x, y, x - 16, y, obj_player, false, false))
+		if (collision_line(x, y, x - jumpTriggerPoint, y, obj_player, false, false))
 		{
 			state = obstacleStates.attack;
 			state_new = true;

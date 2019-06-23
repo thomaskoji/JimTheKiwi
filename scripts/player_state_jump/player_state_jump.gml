@@ -14,13 +14,7 @@ if (state_new)
 		part_particles_create(global.psShallow, x + _xPlus, bbox_bottom + _yPlus, global.jumpSmokeParticle, 1);
 	}
 }
-		
-if (global.upPressed and !doubleJumped)
-{
-	velocity[YAXIS] = -jumpHeight;
-	doubleJumped = true;
-}
-	
+
 if (global.upReleased == true and velocity[YAXIS] < 0)
 {
 	velocity[YAXIS] = velocity[YAXIS] * jumpReleaseMod;
@@ -58,6 +52,6 @@ if (y + velocity[YAXIS] >= startY)
 	y = startY;
 	velocity[YAXIS] = 0;
 	scr_stateSwitch("wait");
-	doubleJumped = false;
+	jumped = false;
 	Yscale = 1;
 }

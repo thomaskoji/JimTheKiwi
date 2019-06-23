@@ -13,6 +13,10 @@ global.confirmPressed = false;
 global.confirmHeld = false;
 global.confirmReleased = false;
 
+global.anyPressed = false;
+global.anyHeld = false;
+global.anyReleased = false;
+
 global.debugMode = false;
 
 // input config
@@ -22,4 +26,6 @@ upButton1 = vk_up;
 downButton0 = ord("S");
 downButton1 = vk_down;
 
-confirmButton = vk_anykey;
+confirmButton = ord("E");
+
+anyButton = vk_anykey;
