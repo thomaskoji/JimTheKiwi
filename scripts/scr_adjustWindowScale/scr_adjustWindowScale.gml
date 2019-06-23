@@ -23,7 +23,7 @@ and _ideal_height * _newZoom <= display_get_height()
 }
 else
 {
-	_ = 1;
+	_zoom = 1;
 	window_set_size(_ideal_width * _zoom, _ideal_height * _zoom);
 	alarm[0] = 1;
 }
