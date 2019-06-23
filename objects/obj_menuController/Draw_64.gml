@@ -1,6 +1,7 @@
 draw_set_halign(fa_center);
 draw_set_valign(fa_middle);
 
+currentMenuHeight = ds_grid_height(currentMenuGrid);
 //Then, let's draw the current menu in all of its glory:
 
 if (ds_exists(currentMenuGrid, ds_type_grid))
@@ -36,10 +37,8 @@ if (ds_exists(currentMenuGrid, ds_type_grid))
         // DRAW APPROPRIATE TEXT AND COLOR DEPENDING ON SLIDER SWITCH SETTINGS
         if (cursorLocation == i )
         {
-            // NORMAL NON-SLIDER SWITCHES SHOULD DISPLAY AS YELLOW WHEN HIGHLIGHTED
-            // THIS LOGIC COULD BE REPLACED WITH IMAGE/ SPRITE CHANGES
 			draw_set_color(c_white);
-			draw_set_alpha(.5);
+			draw_set_alpha(.8);
             draw_rectangle(_centerX - string_width(ds_grid_get(currentMenuGrid,optionsGridProperties.name,i))*.6,
 			_centerY + 3 - _optionsTop + i*_optionSeparation,
 			_centerX + string_width(ds_grid_get(currentMenuGrid,optionsGridProperties.name,i))*.55,
@@ -49,15 +48,20 @@ if (ds_exists(currentMenuGrid, ds_type_grid))
 			draw_set_alpha(1);
 			draw_text(_centerX, _centerY - _optionsTop + i*_optionSeparation, _text);
         }
-		/*
         else if (cursorLocation == i and _buttonType == buttonTypes.slider)
         {
+			draw_set_color(c_white);
+			draw_set_alpha(.5);
+            draw_rectangle(_centerX - string_width(ds_grid_get(currentMenuGrid,optionsGridProperties.name,i))*.6,
+			_centerY + 3 - _optionsTop + i*_optionSeparation,
+			_centerX + string_width(ds_grid_get(currentMenuGrid,optionsGridProperties.name,i))*.55,
+			_centerY - 6 - _optionsTop + i*_optionSeparation,
+			false);
             // SLIDERS OPTIONS SHOULD NEVER HIGHLIGHT, BUT THE TOGGLE SWITCHES ON EITHER SIDE SHOULD HIGHLIGHT YELLOW
             var _halfStringWidth = string_width(_text)*.5;
-            draw_set_color(c_white);
+            draw_set_color(scr_getColour(2));
             draw_text(_centerX, _centerY - _optionsTop + i*_optionSeparation, _text);
-            // HIGHLIGHT TOGGLE SWITCHES
-        }*/
+        }
         else
         {
             // DRAW NORMAL MENU OPTIONS IN WHITE WHEN NOT HIGHLIGHTED

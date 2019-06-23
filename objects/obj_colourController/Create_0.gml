@@ -9,5 +9,7 @@ scr_addColourSet($dce6fd, $c1d4ff, $e1c8c4);
 scr_addColourSet($e6c69c, $acceee, $738da4);
 scr_addColourSet($504246, $3e3038, $7978bc);
 
-
-alarm[0] = global.colourSetChangeTimer;
+if (!global.gameHasNotStarted)
+{
+	alarm[0] = global.colourSetChangeTimer;
+}

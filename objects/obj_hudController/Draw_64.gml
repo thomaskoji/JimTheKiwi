@@ -1,11 +1,12 @@
 #region START SCREEN
 	var _c = scr_getColour(2);
+	var _c2 = scr_getColour(1);
 	if(global.gameHasNotStarted)
 	{
 		draw_set_halign(fa_center);
 		draw_set_valign(fa_center);
 		draw_text_ext_transformed_color
-		(room_width/2, 22, "JIM THE KIWI", 6, 100, 2, 2, 0, _c, _c, _c, _c, 1);
+		(room_width/2, 22, "JIM THE KIWI", 6, 100, 2, 2, 0, _c2, _c2, _c, _c, 1);
 		
 		draw_set_halign(fa_left);
 		draw_set_valign(fa_bottom);

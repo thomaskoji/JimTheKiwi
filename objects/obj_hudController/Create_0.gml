@@ -4,6 +4,3 @@ scoreSpeed = 20;
 
 scoreX = 150;
 scoreY = 9;
-
-DefaultTimer = 60;
-timer = DefaultTimer;
