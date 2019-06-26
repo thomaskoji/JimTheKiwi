@@ -7,8 +7,6 @@ audio_emitter_gain(global.SEVolume, .5);
 global.MUSEmitter = audio_emitter_create();
 audio_emitter_gain(global.MUSVolume, .5);
 
-// make a script that plays sound here 
-//EXAMPLE audio_play_sound_on(global.SEEmitter, sound, false, 8);
+audio_play_sound_on(global.SEEmitter, snd_bgm, true, 8);
 
-// make a script that plays music here
-//EXAMPLE audio_play_sound_on(global.MUSEmitter, sound, false, 8);
+// audio_play_sound_on(global.MUSEmitter, snd_jump, false, 8);
