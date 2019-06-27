@@ -17,16 +17,34 @@ if (cursorLocation < 0)
 	cursorLocation = ds_grid_height(currentMenuGrid) -1;
 }
 
-if (global.confirmPressed)
+var _buttonType = ds_grid_get(currentMenuGrid, optionsGridProperties.button_type, cursorLocation);
+
+if (_buttonType = buttonTypes.toggle)
 {
-	var _scriptToRun = ds_grid_get(currentMenuGrid, optionsGridProperties.script, cursorLocation);
-	var _argument = ds_grid_get(currentMenuGrid, optionsGridProperties.argument_to_pass, cursorLocation);
-	if (_argument == NULLVALUE)
+	if (global.confirmPressed)
 	{
-		script_execute(_scriptToRun);
+		var _scriptToRun = ds_grid_get(currentMenuGrid, optionsGridProperties.script, cursorLocation);
+		var _argument = ds_grid_get(currentMenuGrid, optionsGridProperties.argument_to_pass, cursorLocation);
+		if (_argument == NULLVALUE)
+		{
+			script_execute(_scriptToRun);
+		}
+		else
+		{
+			script_execute(_scriptToRun, _argument);
+		}
 	}
-	else
+}
+else if (_buttonType = buttonTypes.slider)
+{
+	var _sliderMove = 0;
+	if (global.leftPressed) {_sliderMove = -1;}
+	else if (global.rightPressed) {_sliderMove = 1;}
+	
+	if (_sliderMove != 0)
 	{
-		script_execute(_scriptToRun, _argument);
+		var _scriptToRun = ds_grid_get(currentMenuGrid, optionsGridProperties.script, cursorLocation);
+		var _argument = ds_grid_get(currentMenuGrid, optionsGridProperties.argument_to_pass, cursorLocation);
+		script_execute(_scriptToRun, _argument*_sliderMove);
 	}
 }

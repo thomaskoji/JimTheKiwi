@@ -10,7 +10,7 @@ if (ds_exists(currentMenuGrid, ds_type_grid))
     var _centerX = obj_displayController.ideal_width*.5;
     var _centerY = obj_displayController.ideal_height*.5;
     var _optionSeparation = optionSeparation;
-    var _optionsTop = currentMenuHeight*optionSeparation*.01;
+    var _optionsTop = currentMenuHeight*optionSeparation*-.2;
 
     // DRAW EACH OPTION IN OPTIONS MENU
     for (var i = 0; i < currentMenuHeight; ++i)

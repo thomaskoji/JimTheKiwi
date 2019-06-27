@@ -1,8 +1,8 @@
 {
-    "id": "c8374d18-bc1f-4af2-9162-46a1d2b6f353",
+    "id": "0ee37b3d-63ec-4ddc-8ba7-e8181c5359ea",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "change_window_mode",
+    "name": "scr_playSoundVariant",
     "IsCompatibility": false,
     "IsDnD": false
 }

@@ -5,7 +5,7 @@ if (state_new)
 	Yscale = squishedScale;
 	Xscale = extendedScale;
 	currentSprite = spr_kiwiJump;
-	audio_play_sound_on(global.MUSEmitter, snd_jump, false, 8);
+	scr_playSound(snd_jump,false);
 				
 	// spawn jump smoke particle
 	repeat 6

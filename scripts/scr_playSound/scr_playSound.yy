@@ -1,8 +1,8 @@
 {
-    "id": "71fbdc59-d58b-4fbf-b5f5-2c678b48acfb",
+    "id": "f833fd43-10e2-40ba-8ed5-a91bd57b58ea",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "exit_game",
+    "name": "scr_playSound",
     "IsCompatibility": false,
     "IsDnD": false
 }

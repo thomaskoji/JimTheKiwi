@@ -9,6 +9,14 @@ global.downPressed = false;
 global.downHeld = false;
 global.downReleased = false;
 
+global.rightPressed = false;
+global.rightHeld = false;
+global.rightReleased = false;
+
+global.leftPressed = false;
+global.leftHeld = false;
+global.leftReleased = false;
+
 global.confirmPressed = false;
 global.confirmHeld = false;
 global.confirmReleased = false;
@@ -25,6 +33,12 @@ upButton1 = vk_up;
 
 downButton0 = ord("S");
 downButton1 = vk_down;
+
+rightButton0 = ord("D");
+rightButton1 = vk_right;
+
+leftButton0 = ord("A");
+leftButton1 = vk_left;
 
 confirmButton = ord("E");
 

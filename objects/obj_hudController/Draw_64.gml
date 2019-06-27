@@ -11,7 +11,7 @@
 		draw_set_halign(fa_left);
 		draw_set_valign(fa_bottom);
 		draw_set_color(c_black);
-		draw_text(3, room_height+2, "WS:move    E:select");
+		draw_text(3, room_height+2, "WASD:move    E:select");
 	}
 #endregion
 
